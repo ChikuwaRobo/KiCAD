@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="AP-RX62T-0A">
+<pad name="CN1-50" x="-17.78" y="27.94" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-48" x="-17.78" y="25.4" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-46" x="-17.78" y="22.86" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-44" x="-17.78" y="20.32" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-42" x="-17.78" y="17.78" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-40" x="-17.78" y="15.24" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-38" x="-17.78" y="12.7" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-36" x="-17.78" y="10.16" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-34" x="-17.78" y="7.62" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-32" x="-17.78" y="5.08" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-30" x="-17.78" y="2.54" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-28" x="-17.78" y="0" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-26" x="-17.78" y="-2.54" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-24" x="-17.78" y="-5.08" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-22" x="-17.78" y="-7.62" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-20" x="-17.78" y="-10.16" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-18" x="-17.78" y="-12.7" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-16" x="-17.78" y="-15.24" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-14" x="-17.78" y="-17.78" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-12" x="-17.78" y="-20.32" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-10" x="-17.78" y="-22.86" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-8" x="-17.78" y="-25.4" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-6" x="-17.78" y="-27.94" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-4" x="-17.78" y="-30.48" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-2" x="-17.78" y="-33.02" drill="1" shape="offset" rot="R180"/>
+<pad name="CN1-49" x="-15.24" y="27.94" drill="1" shape="offset"/>
+<pad name="CN1-47" x="-15.24" y="25.4" drill="1" shape="offset"/>
+<pad name="CN1-45" x="-15.24" y="22.86" drill="1" shape="offset"/>
+<pad name="CN1-43" x="-15.24" y="20.32" drill="1" shape="offset"/>
+<pad name="CN1-41" x="-15.24" y="17.78" drill="1" shape="offset"/>
+<pad name="CN1-39" x="-15.24" y="15.24" drill="1" shape="offset"/>
+<pad name="CN1-37" x="-15.24" y="12.7" drill="1" shape="offset"/>
+<pad name="CN1-35" x="-15.24" y="10.16" drill="1" shape="offset"/>
+<pad name="CN1-33" x="-15.24" y="7.62" drill="1" shape="offset"/>
+<pad name="CN1-31" x="-15.24" y="5.08" drill="1" shape="offset"/>
+<pad name="CN1-29" x="-15.24" y="2.54" drill="1" shape="offset"/>
+<pad name="CN1-27" x="-15.24" y="0" drill="1" shape="offset"/>
+<pad name="CN1-25" x="-15.24" y="-2.54" drill="1" shape="offset"/>
+<pad name="CN1-23" x="-15.24" y="-5.08" drill="1" shape="offset"/>
+<pad name="CN1-21" x="-15.24" y="-7.62" drill="1" shape="offset"/>
+<pad name="CN1-19" x="-15.24" y="-10.16" drill="1" shape="offset"/>
+<pad name="CN1-17" x="-15.24" y="-12.7" drill="1" shape="offset"/>
+<pad name="CN1-15" x="-15.24" y="-15.24" drill="1" shape="offset"/>
+<pad name="CN1-13" x="-15.24" y="-17.78" drill="1" shape="offset"/>
+<pad name="CN1-11" x="-15.24" y="-20.32" drill="1" shape="offset"/>
+<pad name="CN1-9" x="-15.24" y="-22.86" drill="1" shape="offset"/>
+<pad name="CN1-7" x="-15.24" y="-25.4" drill="1" shape="offset"/>
+<pad name="CN1-5" x="-15.24" y="-27.94" drill="1" shape="offset"/>
+<pad name="CN1-3" x="-15.24" y="-30.48" drill="1" shape="offset"/>
+<pad name="CN1-1" x="-15.24" y="-33.02" drill="1" shape="offset"/>
+<pad name="CN2-1" x="15.24" y="27.94" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-3" x="15.24" y="25.4" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-5" x="15.24" y="22.86" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-7" x="15.24" y="20.32" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-9" x="15.24" y="17.78" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-11" x="15.24" y="15.24" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-13" x="15.24" y="12.7" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-15" x="15.24" y="10.16" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-17" x="15.24" y="7.62" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-19" x="15.24" y="5.08" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-21" x="15.24" y="2.54" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-23" x="15.24" y="0" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-25" x="15.24" y="-2.54" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-27" x="15.24" y="-5.08" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-29" x="15.24" y="-7.62" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-31" x="15.24" y="-10.16" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-33" x="15.24" y="-12.7" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-35" x="15.24" y="-15.24" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-37" x="15.24" y="-17.78" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-39" x="15.24" y="-20.32" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-41" x="15.24" y="-22.86" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-43" x="15.24" y="-25.4" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-45" x="15.24" y="-27.94" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-47" x="15.24" y="-30.48" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-49" x="15.24" y="-33.02" drill="1" shape="offset" rot="R180"/>
+<pad name="CN2-2" x="17.78" y="27.94" drill="1" shape="offset"/>
+<pad name="CN2-4" x="17.78" y="25.4" drill="1" shape="offset"/>
+<pad name="CN2-6" x="17.78" y="22.86" drill="1" shape="offset"/>
+<pad name="CN2-8" x="17.78" y="20.32" drill="1" shape="offset"/>
+<pad name="CN2-10" x="17.78" y="17.78" drill="1" shape="offset"/>
+<pad name="CN2-12" x="17.78" y="15.24" drill="1" shape="offset"/>
+<pad name="CN2-14" x="17.78" y="12.7" drill="1" shape="offset"/>
+<pad name="CN2-16" x="17.78" y="10.16" drill="1" shape="offset"/>
+<pad name="CN2-18" x="17.78" y="7.62" drill="1" shape="offset"/>
+<pad name="CN2-20" x="17.78" y="5.08" drill="1" shape="offset"/>
+<pad name="CN2-22" x="17.78" y="2.54" drill="1" shape="offset"/>
+<pad name="CN2-24" x="17.78" y="0" drill="1" shape="offset"/>
+<pad name="CN2-26" x="17.78" y="-2.54" drill="1" shape="offset"/>
+<pad name="CN2-28" x="17.78" y="-5.08" drill="1" shape="offset"/>
+<pad name="CN2-30" x="17.78" y="-7.62" drill="1" shape="offset"/>
+<pad name="CN2-32" x="17.78" y="-10.16" drill="1" shape="offset"/>
+<pad name="CN2-34" x="17.78" y="-12.7" drill="1" shape="offset"/>
+<pad name="CN2-36" x="17.78" y="-15.24" drill="1" shape="offset"/>
+<pad name="CN2-38" x="17.78" y="-17.78" drill="1" shape="offset"/>
+<pad name="CN2-40" x="17.78" y="-20.32" drill="1" shape="offset"/>
+<pad name="CN2-42" x="17.78" y="-22.86" drill="1" shape="offset"/>
+<pad name="CN2-44" x="17.78" y="-25.4" drill="1" shape="offset"/>
+<pad name="CN2-46" x="17.78" y="-27.94" drill="1" shape="offset"/>
+<pad name="CN2-48" x="17.78" y="-30.48" drill="1" shape="offset"/>
+<pad name="CN2-50" x="17.78" y="-33.02" drill="1" shape="offset"/>
+<wire x1="-20.32" y1="30.48" x2="-12.7" y2="30.48" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-35.56" x2="-20.32" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="-35.56" x2="-20.32" y2="30.48" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-35.56" x2="20.32" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-35.56" x2="20.32" y2="30.48" width="0.127" layer="21"/>
+<wire x1="20.32" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="21"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-43.18" x2="-22.86" y2="38.1" width="0.127" layer="22"/>
+<wire x1="-22.86" y1="38.1" x2="22.86" y2="38.1" width="0.127" layer="22"/>
+<wire x1="22.86" y1="38.1" x2="22.86" y2="-43.18" width="0.127" layer="22"/>
+<wire x1="22.86" y1="-43.18" x2="-22.86" y2="-43.18" width="0.127" layer="22"/>
+<text x="-22.86" y="38.1" size="1.27" layer="21">AP-RX62T-0A</text>
+<text x="-12.7" y="-2.54" size="1.27" layer="21" rot="SR270">CN1</text>
+<text x="12.7" y="-5.08" size="1.27" layer="21" rot="SR90">CN2</text>
+<text x="-15.24" y="-35.56" size="1.27" layer="21" rot="SR270">1</text>
+<text x="-17.78" y="-35.56" size="1.27" layer="21" rot="SR270">2</text>
+<text x="17.78" y="30.48" size="1.27" layer="21" rot="R90">2</text>
+<text x="15.24" y="30.48" size="1.27" layer="21" rot="R90">1</text>
+<text x="15.24" y="-38.1" size="1.27" layer="21" rot="SR90">49</text>
+<text x="17.78" y="-38.1" size="1.27" layer="21" rot="SR90">50</text>
+<text x="-17.78" y="33.02" size="1.27" layer="21" rot="SR270">50</text>
+<text x="-15.24" y="33.02" size="1.27" layer="21" rot="SR270">49</text>
+</package>
+</packages>
+<symbols>
+<symbol name="AP-RX62T-0A">
+<pin name="VCC" x="-50.8" y="60.96" length="middle" direction="pwr"/>
+<pin name="VCC@1" x="-50.8" y="58.42" length="middle" direction="pwr"/>
+<pin name="GND" x="-50.8" y="55.88" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-50.8" y="53.34" length="middle" direction="pwr"/>
+<pin name="RES#" x="-50.8" y="50.8" length="middle"/>
+<pin name="RES_SW" x="-50.8" y="48.26" length="middle"/>
+<pin name="P91/MTIOC7C" x="-50.8" y="45.72" length="middle"/>
+<pin name="P90/MTIOC7D" x="-50.8" y="43.18" length="middle"/>
+<pin name="P93/MTIOC7B" x="-50.8" y="40.64" length="middle"/>
+<pin name="P92/MTIOC6D" x="-50.8" y="38.1" length="middle"/>
+<pin name="P95/MTIOC6B" x="-50.8" y="35.56" length="middle"/>
+<pin name="P94/MTIOC7A" x="-50.8" y="33.02" length="middle"/>
+<pin name="NC" x="-50.8" y="30.48" length="middle"/>
+<pin name="P96/IRQ4/POE4#" x="-50.8" y="27.94" length="middle"/>
+<pin name="GND@2" x="-50.8" y="25.4" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-50.8" y="22.86" length="middle" direction="pwr"/>
+<pin name="PA1/MTIOC6A/SSL2-B" x="-50.8" y="20.32" length="middle"/>
+<pin name="PA0/MTIOC6C/SSL3-B" x="-50.8" y="17.78" length="middle"/>
+<pin name="PA3/MTIOC2A/SSL0-B" x="-50.8" y="15.24" length="middle"/>
+<pin name="PA2/MTIOC2B/SSL1-B" x="-50.8" y="12.7" length="middle"/>
+<pin name="PA5/ADTRG1#-A/MTIOC1A/MISO-B" x="-50.8" y="10.16" length="middle"/>
+<pin name="PA4/ADTRG0#-A/MTIOC1B/RSPCK-B" x="-50.8" y="7.62" length="middle"/>
+<pin name="GND@4" x="-50.8" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND@5" x="-50.8" y="2.54" length="middle" direction="pwr"/>
+<pin name="PB1/MTIOC0C/RXD0/SCL" x="-50.8" y="0" length="middle"/>
+<pin name="PB0/MTIOC0D/MOSI-B" x="-50.8" y="-2.54" length="middle"/>
+<pin name="PB3/MTIOC0A-A/SCK0" x="-50.8" y="-5.08" length="middle"/>
+<pin name="PB2/MTI0COB-A/TXD0/SDA" x="-50.8" y="-7.62" length="middle"/>
+<pin name="PB5/CTX-A/TXD2-A/TRSYNC#" x="-50.8" y="-10.16" length="middle"/>
+<pin name="PB4/GTETRG/IRQ3/POE8#" x="-50.8" y="-12.7" length="middle"/>
+<pin name="PB7/SCK2-A/TRDATA1" x="-50.8" y="-15.24" length="middle"/>
+<pin name="PB6/CRX-A/RXD2-A/TRDATA0" x="-50.8" y="-17.78" length="middle"/>
+<pin name="GND@6" x="-50.8" y="-20.32" length="middle" direction="pwr"/>
+<pin name="GND@7" x="-50.8" y="-22.86" length="middle" direction="pwr"/>
+<pin name="PD1/GTIOC3A/MISO-C/TRDATA3" x="-50.8" y="-25.4" length="middle"/>
+<pin name="PD0/GTIOC3B/RSPCK-C/TRDATA2" x="-50.8" y="-27.94" length="middle"/>
+<pin name="PD3/GTIOC2A-B/TXD1/TD0/" x="-50.8" y="-30.48" length="middle"/>
+<pin name="PD2/GTIOC2B-B/MOSI-C/TRCLK" x="-50.8" y="-33.02" length="middle"/>
+<pin name="PD5/GTIOC1A-B/RXD1/TDI" x="-50.8" y="-35.56" length="middle"/>
+<pin name="PD4/GTIOC1B-B/SCK1/TCK" x="-50.8" y="-38.1" length="middle"/>
+<pin name="PD7/GTIOC0A-B/CTX-C/SSL1-C/TRST#" x="-50.8" y="-40.64" length="middle"/>
+<pin name="PD6/GTIOC0B-B/SSL0-C/TMS" x="-50.8" y="-43.18" length="middle"/>
+<pin name="GND@8" x="-50.8" y="-45.72" length="middle" direction="pwr"/>
+<pin name="GND@9" x="-50.8" y="-48.26" length="middle" direction="pwr"/>
+<pin name="PE1/SSL3-C" x="-50.8" y="-50.8" length="middle"/>
+<pin name="PE0/CRX-C/SSL2-C" x="-50.8" y="-53.34" length="middle"/>
+<pin name="PE3/MTCLKD-C/IRQ2-A/POE11#" x="-50.8" y="-55.88" length="middle"/>
+<pin name="PE2/NMI/POE10#-A" x="-50.8" y="-58.42" length="middle"/>
+<pin name="PE5/IRQ0-B" x="-50.8" y="-60.96" length="middle"/>
+<pin name="PE4/MTCLKC-C/IRQ1-B/POE10#-B" x="-50.8" y="-63.5" length="middle"/>
+<pin name="P11/MTCLKC-B/IRQ1-A" x="48.26" y="60.96" length="middle" rot="R180"/>
+<pin name="P10/MTCLKD-B/IRQ0-A" x="48.26" y="58.42" length="middle" rot="R180"/>
+<pin name="P81/MTIC5V/TXD2-B" x="48.26" y="55.88" length="middle" rot="R180"/>
+<pin name="P80/MTIC5W/RXD2-B" x="48.26" y="53.34" length="middle" rot="R180"/>
+<pin name="GND@10" x="48.26" y="50.8" length="middle" direction="pwr" rot="R180"/>
+<pin name="P82/MTIC5U/SCK2-B" x="48.26" y="48.26" length="middle" rot="R180"/>
+<pin name="VREFH0" x="48.26" y="45.72" length="middle" rot="R180"/>
+<pin name="AGND" x="48.26" y="43.18" length="middle" direction="pwr" rot="R180"/>
+<pin name="P41/AN001" x="48.26" y="40.64" length="middle" rot="R180"/>
+<pin name="P40/AN000" x="48.26" y="38.1" length="middle" rot="R180"/>
+<pin name="P43/AN003/CVREFL" x="48.26" y="35.56" length="middle" rot="R180"/>
+<pin name="P42/AN002" x="48.26" y="33.02" length="middle" rot="R180"/>
+<pin name="P45/AN101" x="48.26" y="30.48" length="middle" rot="R180"/>
+<pin name="P44/AN100" x="48.26" y="27.94" length="middle" rot="R180"/>
+<pin name="P47/AN103/CVREFH" x="48.26" y="25.4" length="middle" rot="R180"/>
+<pin name="P46/AN102" x="48.26" y="22.86" length="middle" rot="R180"/>
+<pin name="AVCC" x="48.26" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="AGND@1" x="48.26" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="P51/AN7" x="48.26" y="15.24" length="middle" rot="R180"/>
+<pin name="P50/AN6" x="48.26" y="12.7" length="middle" rot="R180"/>
+<pin name="P53/AN9" x="48.26" y="10.16" length="middle" rot="R180"/>
+<pin name="P52/AN8" x="48.26" y="7.62" length="middle" rot="R180"/>
+<pin name="P55/AN11" x="48.26" y="5.08" length="middle" rot="R180"/>
+<pin name="P54/AN10" x="48.26" y="2.54" length="middle" rot="R180"/>
+<pin name="P61/AN1" x="48.26" y="0" length="middle" rot="R180"/>
+<pin name="P60/AN0" x="48.26" y="-2.54" length="middle" rot="R180"/>
+<pin name="P63/AN3" x="48.26" y="-5.08" length="middle" rot="R180"/>
+<pin name="P62/AN2" x="48.26" y="-7.62" length="middle" rot="R180"/>
+<pin name="P65/AN5" x="48.26" y="-10.16" length="middle" rot="R180"/>
+<pin name="P64/AN4" x="48.26" y="-12.7" length="middle" rot="R180"/>
+<pin name="VREF" x="48.26" y="-15.24" length="middle" rot="R180"/>
+<pin name="AGND@2" x="48.26" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="P21/ADTRG1#-B/MTCLKA-B/IRQ6" x="48.26" y="-20.32" length="middle" rot="R180"/>
+<pin name="P20/ADTRG0#-B/MTCLKB-B/IRQ7" x="48.26" y="-22.86" length="middle" rot="R180"/>
+<pin name="P23/CTX-B/LTX/MOSI-A" x="48.26" y="-25.4" length="middle" rot="R180"/>
+<pin name="P22/ADTRG#/CRX-B/LRX/MISO-A" x="48.26" y="-27.94" length="middle" rot="R180"/>
+<pin name="GND@11" x="48.26" y="-30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="P24/RSPCK-A" x="48.26" y="-33.02" length="middle" rot="R180"/>
+<pin name="P31/MTIOCOA-B/MTCLKC-A/SSL1-A" x="48.26" y="-35.56" length="middle" rot="R180"/>
+<pin name="P30/MTIOCOB-B/MTCLKD-A/SSL0-A" x="48.26" y="-38.1" length="middle" rot="R180"/>
+<pin name="P33/MTIOC3A/MTCLKA-A/SSL3-A" x="48.26" y="-40.64" length="middle" rot="R180"/>
+<pin name="P32/MTIOC3C/MTCLKB-A/SSL2-A" x="48.26" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND@12" x="48.26" y="-45.72" length="middle" direction="pwr" rot="R180"/>
+<pin name="P70/IRQ5/POE0#" x="48.26" y="-48.26" length="middle" rot="R180"/>
+<pin name="P71/MTIOC3B/GTIOCOA-A" x="48.26" y="-50.8" length="middle" rot="R180"/>
+<pin name="P72/MTIOC4A/GTIOC1A-A" x="48.26" y="-53.34" length="middle" rot="R180"/>
+<pin name="P73/MTIOC4B/GTIOC2A-A" x="48.26" y="-55.88" length="middle" rot="R180"/>
+<pin name="P74/MTIOC3D/GTIOCOB-A" x="48.26" y="-58.42" length="middle" rot="R180"/>
+<pin name="P75/MTIOC4C/GTIOC1B-A" x="48.26" y="-60.96" length="middle" rot="R180"/>
+<pin name="P76/MTIOC4D/GTIOC2B-A" x="48.26" y="-63.5" length="middle" rot="R180"/>
+<wire x1="-45.72" y1="68.58" x2="-45.72" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="-45.72" y1="-71.12" x2="43.18" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-71.12" x2="43.18" y2="68.58" width="0.254" layer="94"/>
+<wire x1="43.18" y1="68.58" x2="-45.72" y2="68.58" width="0.254" layer="94"/>
+<text x="-43.18" y="63.5" size="1.778" layer="94">CN1</text>
+<text x="35.56" y="63.5" size="1.778" layer="94">CN2</text>
+<text x="-45.72" y="68.58" size="1.778" layer="94">AP-RX62T-0A</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AP-RX62T-0A">
+<gates>
+<gate name="G$1" symbol="AP-RX62T-0A" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="AP-RX62T-0A">
+<connects>
+<connect gate="G$1" pin="AGND" pad="CN2-8"/>
+<connect gate="G$1" pin="AGND@1" pad="CN2-18"/>
+<connect gate="G$1" pin="AGND@2" pad="CN2-32"/>
+<connect gate="G$1" pin="AVCC" pad="CN2-17"/>
+<connect gate="G$1" pin="GND" pad="CN1-3"/>
+<connect gate="G$1" pin="GND@1" pad="CN1-4"/>
+<connect gate="G$1" pin="GND@10" pad="CN2-5"/>
+<connect gate="G$1" pin="GND@11" pad="CN2-37"/>
+<connect gate="G$1" pin="GND@12" pad="CN2-43"/>
+<connect gate="G$1" pin="GND@2" pad="CN1-15"/>
+<connect gate="G$1" pin="GND@3" pad="CN1-16"/>
+<connect gate="G$1" pin="GND@4" pad="CN1-23"/>
+<connect gate="G$1" pin="GND@5" pad="CN1-24"/>
+<connect gate="G$1" pin="GND@6" pad="CN1-33"/>
+<connect gate="G$1" pin="GND@7" pad="CN1-34"/>
+<connect gate="G$1" pin="GND@8" pad="CN1-43"/>
+<connect gate="G$1" pin="GND@9" pad="CN1-44"/>
+<connect gate="G$1" pin="NC" pad="CN1-13"/>
+<connect gate="G$1" pin="P10/MTCLKD-B/IRQ0-A" pad="CN2-2"/>
+<connect gate="G$1" pin="P11/MTCLKC-B/IRQ1-A" pad="CN2-1"/>
+<connect gate="G$1" pin="P20/ADTRG0#-B/MTCLKB-B/IRQ7" pad="CN2-34"/>
+<connect gate="G$1" pin="P21/ADTRG1#-B/MTCLKA-B/IRQ6" pad="CN2-33"/>
+<connect gate="G$1" pin="P22/ADTRG#/CRX-B/LRX/MISO-A" pad="CN2-36"/>
+<connect gate="G$1" pin="P23/CTX-B/LTX/MOSI-A" pad="CN2-35"/>
+<connect gate="G$1" pin="P24/RSPCK-A" pad="CN2-38"/>
+<connect gate="G$1" pin="P30/MTIOCOB-B/MTCLKD-A/SSL0-A" pad="CN2-40"/>
+<connect gate="G$1" pin="P31/MTIOCOA-B/MTCLKC-A/SSL1-A" pad="CN2-39"/>
+<connect gate="G$1" pin="P32/MTIOC3C/MTCLKB-A/SSL2-A" pad="CN2-42"/>
+<connect gate="G$1" pin="P33/MTIOC3A/MTCLKA-A/SSL3-A" pad="CN2-41"/>
+<connect gate="G$1" pin="P40/AN000" pad="CN2-10"/>
+<connect gate="G$1" pin="P41/AN001" pad="CN2-9"/>
+<connect gate="G$1" pin="P42/AN002" pad="CN2-12"/>
+<connect gate="G$1" pin="P43/AN003/CVREFL" pad="CN2-11"/>
+<connect gate="G$1" pin="P44/AN100" pad="CN2-14"/>
+<connect gate="G$1" pin="P45/AN101" pad="CN2-13"/>
+<connect gate="G$1" pin="P46/AN102" pad="CN2-16"/>
+<connect gate="G$1" pin="P47/AN103/CVREFH" pad="CN2-15"/>
+<connect gate="G$1" pin="P50/AN6" pad="CN2-20"/>
+<connect gate="G$1" pin="P51/AN7" pad="CN2-19"/>
+<connect gate="G$1" pin="P52/AN8" pad="CN2-22"/>
+<connect gate="G$1" pin="P53/AN9" pad="CN2-21"/>
+<connect gate="G$1" pin="P54/AN10" pad="CN2-24"/>
+<connect gate="G$1" pin="P55/AN11" pad="CN2-23"/>
+<connect gate="G$1" pin="P60/AN0" pad="CN2-26"/>
+<connect gate="G$1" pin="P61/AN1" pad="CN2-25"/>
+<connect gate="G$1" pin="P62/AN2" pad="CN2-28"/>
+<connect gate="G$1" pin="P63/AN3" pad="CN2-27"/>
+<connect gate="G$1" pin="P64/AN4" pad="CN2-30"/>
+<connect gate="G$1" pin="P65/AN5" pad="CN2-29"/>
+<connect gate="G$1" pin="P70/IRQ5/POE0#" pad="CN2-44"/>
+<connect gate="G$1" pin="P71/MTIOC3B/GTIOCOA-A" pad="CN2-45"/>
+<connect gate="G$1" pin="P72/MTIOC4A/GTIOC1A-A" pad="CN2-46"/>
+<connect gate="G$1" pin="P73/MTIOC4B/GTIOC2A-A" pad="CN2-47"/>
+<connect gate="G$1" pin="P74/MTIOC3D/GTIOCOB-A" pad="CN2-48"/>
+<connect gate="G$1" pin="P75/MTIOC4C/GTIOC1B-A" pad="CN2-49"/>
+<connect gate="G$1" pin="P76/MTIOC4D/GTIOC2B-A" pad="CN2-50"/>
+<connect gate="G$1" pin="P80/MTIC5W/RXD2-B" pad="CN2-4"/>
+<connect gate="G$1" pin="P81/MTIC5V/TXD2-B" pad="CN2-3"/>
+<connect gate="G$1" pin="P82/MTIC5U/SCK2-B" pad="CN2-6"/>
+<connect gate="G$1" pin="P90/MTIOC7D" pad="CN1-8"/>
+<connect gate="G$1" pin="P91/MTIOC7C" pad="CN1-7"/>
+<connect gate="G$1" pin="P92/MTIOC6D" pad="CN1-10"/>
+<connect gate="G$1" pin="P93/MTIOC7B" pad="CN1-9"/>
+<connect gate="G$1" pin="P94/MTIOC7A" pad="CN1-12"/>
+<connect gate="G$1" pin="P95/MTIOC6B" pad="CN1-11"/>
+<connect gate="G$1" pin="P96/IRQ4/POE4#" pad="CN1-14"/>
+<connect gate="G$1" pin="PA0/MTIOC6C/SSL3-B" pad="CN1-18"/>
+<connect gate="G$1" pin="PA1/MTIOC6A/SSL2-B" pad="CN1-17"/>
+<connect gate="G$1" pin="PA2/MTIOC2B/SSL1-B" pad="CN1-20"/>
+<connect gate="G$1" pin="PA3/MTIOC2A/SSL0-B" pad="CN1-19"/>
+<connect gate="G$1" pin="PA4/ADTRG0#-A/MTIOC1B/RSPCK-B" pad="CN1-22"/>
+<connect gate="G$1" pin="PA5/ADTRG1#-A/MTIOC1A/MISO-B" pad="CN1-21"/>
+<connect gate="G$1" pin="PB0/MTIOC0D/MOSI-B" pad="CN1-26"/>
+<connect gate="G$1" pin="PB1/MTIOC0C/RXD0/SCL" pad="CN1-25"/>
+<connect gate="G$1" pin="PB2/MTI0COB-A/TXD0/SDA" pad="CN1-28"/>
+<connect gate="G$1" pin="PB3/MTIOC0A-A/SCK0" pad="CN1-27"/>
+<connect gate="G$1" pin="PB4/GTETRG/IRQ3/POE8#" pad="CN1-30"/>
+<connect gate="G$1" pin="PB5/CTX-A/TXD2-A/TRSYNC#" pad="CN1-29"/>
+<connect gate="G$1" pin="PB6/CRX-A/RXD2-A/TRDATA0" pad="CN1-32"/>
+<connect gate="G$1" pin="PB7/SCK2-A/TRDATA1" pad="CN1-31"/>
+<connect gate="G$1" pin="PD0/GTIOC3B/RSPCK-C/TRDATA2" pad="CN1-36"/>
+<connect gate="G$1" pin="PD1/GTIOC3A/MISO-C/TRDATA3" pad="CN1-35"/>
+<connect gate="G$1" pin="PD2/GTIOC2B-B/MOSI-C/TRCLK" pad="CN1-38"/>
+<connect gate="G$1" pin="PD3/GTIOC2A-B/TXD1/TD0/" pad="CN1-37"/>
+<connect gate="G$1" pin="PD4/GTIOC1B-B/SCK1/TCK" pad="CN1-40"/>
+<connect gate="G$1" pin="PD5/GTIOC1A-B/RXD1/TDI" pad="CN1-39"/>
+<connect gate="G$1" pin="PD6/GTIOC0B-B/SSL0-C/TMS" pad="CN1-42"/>
+<connect gate="G$1" pin="PD7/GTIOC0A-B/CTX-C/SSL1-C/TRST#" pad="CN1-41"/>
+<connect gate="G$1" pin="PE0/CRX-C/SSL2-C" pad="CN1-46"/>
+<connect gate="G$1" pin="PE1/SSL3-C" pad="CN1-45"/>
+<connect gate="G$1" pin="PE2/NMI/POE10#-A" pad="CN1-48"/>
+<connect gate="G$1" pin="PE3/MTCLKD-C/IRQ2-A/POE11#" pad="CN1-47"/>
+<connect gate="G$1" pin="PE4/MTCLKC-C/IRQ1-B/POE10#-B" pad="CN1-50"/>
+<connect gate="G$1" pin="PE5/IRQ0-B" pad="CN1-49"/>
+<connect gate="G$1" pin="RES#" pad="CN1-5"/>
+<connect gate="G$1" pin="RES_SW" pad="CN1-6"/>
+<connect gate="G$1" pin="VCC" pad="CN1-1"/>
+<connect gate="G$1" pin="VCC@1" pad="CN1-2"/>
+<connect gate="G$1" pin="VREF" pad="CN2-31"/>
+<connect gate="G$1" pin="VREFH0" pad="CN2-7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

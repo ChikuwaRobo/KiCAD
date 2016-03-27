@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="STM32_VALUE_LINE_DISCOVERY">
+<pad name="P1-1" x="-16" y="35.58" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-2" x="-16" y="33.04" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-3" x="-16" y="30.5" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-4" x="-16" y="27.96" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-5" x="-16" y="25.42" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-6" x="-16" y="22.88" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-7" x="-16" y="20.34" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-8" x="-16" y="17.8" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-9" x="-16" y="15.26" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-10" x="-16" y="12.72" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-11" x="-16" y="10.18" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-12" x="-16" y="7.64" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-13" x="-16" y="5.1" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-14" x="-16" y="2.56" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-15" x="-16" y="0.02" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-16" x="-16" y="-2.52" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-17" x="-16" y="-5.06" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-18" x="-16" y="-7.6" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-19" x="-16" y="-10.14" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-20" x="-16" y="-12.68" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-21" x="-16" y="-15.22" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-22" x="-16" y="-17.76" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-23" x="-16" y="-20.3" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-24" x="-16" y="-22.84" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-25" x="-16" y="-25.38" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-26" x="-16" y="-27.92" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-27" x="-16" y="-30.46" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P1-28" x="-16" y="-33" drill="1" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="P2-1" x="15" y="35.58" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-2" x="15" y="33.04" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-3" x="15" y="30.5" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-4" x="15" y="27.96" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-5" x="15" y="25.42" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-6" x="15" y="22.88" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-7" x="15" y="20.34" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-8" x="15" y="17.8" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-9" x="15" y="15.26" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-10" x="15" y="12.72" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-11" x="15" y="10.18" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-12" x="15" y="7.64" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-13" x="15" y="5.1" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-14" x="15" y="2.56" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-16" x="15" y="-2.52" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-15" x="15" y="0.02" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-17" x="15" y="-5.06" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-18" x="15" y="-7.6" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-19" x="15" y="-10.14" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-20" x="15" y="-12.68" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-21" x="15" y="-15.22" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-22" x="15" y="-17.76" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-24" x="15" y="-22.84" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-23" x="15" y="-20.3" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-25" x="15" y="-25.38" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-26" x="15" y="-27.92" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-27" x="15" y="-30.46" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P2-28" x="15" y="-33" drill="1" diameter="1.6764" shape="offset"/>
+<pad name="P3-1" x="-5" y="-38.5" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<pad name="P3-2" x="-2.46" y="-38.5" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<pad name="P3-3" x="0.08" y="-38.5" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<pad name="P3-4" x="2.62" y="-38.5" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<pad name="P3-5" x="5.16" y="-38.5" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<pad name="P3-6" x="7.7" y="-38.5" drill="1" diameter="1.6764" shape="offset" rot="R270"/>
+<wire x1="20" y1="-45" x2="20" y2="41" width="0.127" layer="21"/>
+<wire x1="20" y1="41" x2="-21" y2="41" width="0.127" layer="21"/>
+<wire x1="-21" y1="41" x2="-21" y2="-45" width="0.127" layer="21"/>
+<wire x1="-21" y1="-45" x2="20" y2="-45" width="0.127" layer="21"/>
+<text x="-21" y="41" size="1.27" layer="21">STM32 discovery</text>
+<wire x1="19.05" y1="38.1" x2="12.7" y2="38.1" width="0.127" layer="21"/>
+<wire x1="12.7" y1="38.1" x2="12.7" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-35.56" x2="19.05" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-35.56" x2="19.05" y2="38.1" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="38.1" x2="-13.97" y2="38.1" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="38.1" x2="-13.97" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-35.56" x2="-20.32" y2="-35.56" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="-35.56" x2="-20.32" y2="38.1" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-36.83" x2="-7.62" y2="-41.91" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-41.91" x2="10.16" y2="-41.91" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-41.91" x2="10.16" y2="-36.83" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-36.83" x2="-7.62" y2="-36.83" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STM32_VALUE_LINE_DISCOVERY">
+<pin name="GND" x="-71.12" y="40.64" length="middle" direction="pwr"/>
+<pin name="NC" x="-71.12" y="38.1" length="middle"/>
+<pin name="3V3" x="-71.12" y="35.56" length="middle" direction="pwr"/>
+<pin name="VBAT" x="-71.12" y="33.02" length="middle"/>
+<pin name="PC13/TAMPER-RTC" x="-71.12" y="30.48" length="middle"/>
+<pin name="PC14/OSC32_IN" x="-71.12" y="27.94" length="middle"/>
+<pin name="PC15/OSC32_OUT" x="-71.12" y="25.4" length="middle"/>
+<pin name="PD0" x="-71.12" y="22.86" length="middle"/>
+<pin name="PD1" x="-71.12" y="20.32" length="middle"/>
+<pin name="RST" x="-71.12" y="17.78" length="middle"/>
+<pin name="PC0/ADC1_IN10" x="-71.12" y="15.24" length="middle"/>
+<pin name="PC1/ADC1_IN11" x="-71.12" y="12.7" length="middle"/>
+<pin name="PC2/ADC1_IN12" x="-71.12" y="10.16" length="middle"/>
+<pin name="PC3/ADC1_IN13" x="-71.12" y="7.62" length="middle"/>
+<pin name="PA0/USART2_CTS/ADC1_IN0/TIM2_CH1_ETR" x="-71.12" y="5.08" length="middle"/>
+<pin name="PA1/USART2_RTS/ADC1_IN1/TIM2_CH2" x="-71.12" y="2.54" length="middle"/>
+<pin name="PA2/USART2_TX/ADC1_IN2/TIM2_CH3/TIM15_CH1" x="-71.12" y="0" length="middle"/>
+<pin name="PA3/USART2_RX/ADC1_IN3/TIM2_CH4/TIM15_CH2" x="-71.12" y="-2.54" length="middle"/>
+<pin name="PA4/SPI1_NSS/ADC1_IN4/USART2_CK/DAC1_OUT" x="-71.12" y="-5.08" length="middle"/>
+<pin name="PA5/SPI1_SCK/ADC1_IN5/DAC2_OUT" x="-71.12" y="-7.62" length="middle"/>
+<pin name="PA6/SPI1_MISO/ADC1_IN6/TIM3_CH1" x="-71.12" y="-10.16" length="middle"/>
+<pin name="PA7/SPI1_MOSI/ADC1_IN7/TIM3_CH2" x="-71.12" y="-12.7" length="middle"/>
+<pin name="PC4/ADC1_IN14" x="-71.12" y="-15.24" length="middle"/>
+<pin name="PC5/ADC1_IN15" x="-71.12" y="-17.78" length="middle"/>
+<pin name="PB0/ADC1_IN8/TIM3_CH3" x="-71.12" y="-20.32" length="middle"/>
+<pin name="PB1/ADC1_IN9/TIM3_CH4" x="-71.12" y="-22.86" length="middle"/>
+<pin name="PB2/BOOT1" x="-71.12" y="-25.4" length="middle"/>
+<pin name="GND@1" x="-71.12" y="-27.94" length="middle" direction="pwr"/>
+<pin name="GND@2" x="73.66" y="40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC@1" x="73.66" y="38.1" length="middle" rot="R180"/>
+<pin name="5V" x="73.66" y="35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB9/TIM4_CH4/TIM17_CH1" x="73.66" y="33.02" length="middle" rot="R180"/>
+<pin name="PB8/TIM4_CH3/TIM16_CH1/CEC" x="73.66" y="30.48" length="middle" rot="R180"/>
+<pin name="BOOT" x="73.66" y="27.94" length="middle" rot="R180"/>
+<pin name="PB7/I2C1_SDA/TIM17_CH1N/TIM4_CH2" x="73.66" y="25.4" length="middle" rot="R180"/>
+<pin name="PB6/I2C1_SCL/TIM4CH1/TIM16_CH1N" x="73.66" y="22.86" length="middle" rot="R180"/>
+<pin name="PB5/I2C1_SMBA/TIM16_BKIN" x="73.66" y="20.32" length="middle" rot="R180"/>
+<pin name="PB4" x="73.66" y="17.78" length="middle" rot="R180"/>
+<pin name="PB3" x="73.66" y="15.24" length="middle" rot="R180"/>
+<pin name="PD2/TIM_ETR" x="73.66" y="12.7" length="middle" rot="R180"/>
+<pin name="PC12" x="73.66" y="10.16" length="middle" rot="R180"/>
+<pin name="PC11" x="73.66" y="7.62" length="middle" rot="R180"/>
+<pin name="PC10" x="73.66" y="5.08" length="middle" rot="R180"/>
+<pin name="PA15/JTDI" x="73.66" y="2.54" length="middle" rot="R180"/>
+<pin name="PA14/JTCK/SWCLK" x="73.66" y="0" length="middle" rot="R180"/>
+<pin name="PA13/JTMS/SWDIO" x="73.66" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA12/USART1_RTS/TIM1_ETR" x="73.66" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA11/USART1_CTS/TIM1_CH4" x="73.66" y="-7.62" length="middle" rot="R180"/>
+<pin name="PA10/USART1_RX/TIM1_CH3" x="73.66" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA9/USART1_TX/TIM1_CH2" x="73.66" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA8/USART1_CK/TIM1_CH1" x="73.66" y="-15.24" length="middle" rot="R180"/>
+<pin name="PC9" x="73.66" y="-17.78" length="middle" rot="R180"/>
+<pin name="PC8" x="73.66" y="-20.32" length="middle" rot="R180"/>
+<pin name="PC7" x="73.66" y="-22.86" length="middle" rot="R180"/>
+<pin name="PC6" x="73.66" y="-25.4" length="middle" rot="R180"/>
+<pin name="GND@3" x="73.66" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB10/I2C2_SCL/USART3_TX/TIM2_CH3/CEC" x="-5.08" y="-50.8" length="middle" rot="R90"/>
+<pin name="PB11/I2C2_SDA/USART3_RX" x="-2.54" y="-50.8" length="middle" rot="R90"/>
+<pin name="PB12/SPI2_NSS/I2C2_SMBA/TIM1_BKIN/USART3_CT5" x="0" y="-50.8" length="middle" rot="R90"/>
+<pin name="PB13/SPI2_SCK/TIM1_CH1N/USART3_CTS" x="2.54" y="-50.8" length="middle" rot="R90"/>
+<pin name="PB14/SPI2_MISO/TIM1_CH2N/USART3_RTS" x="5.08" y="-50.8" length="middle" rot="R90"/>
+<pin name="PB15/SPI2_MOSI/TIM1_CH3N/TIM15_CH1N" x="7.62" y="-50.8" length="middle" rot="R90"/>
+<text x="-55.9" y="40.3" size="1.778" layer="94">P1</text>
+<text x="54.02" y="40.3" size="1.778" layer="94">P2</text>
+<text x="-10.18" y="-40.98" size="1.778" layer="94">P3</text>
+<text x="-66.04" y="45.72" size="1.778" layer="94">STM32VLDISCOVERY</text>
+<wire x1="-66.04" y1="45.72" x2="-66.04" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-66.04" y1="-45.72" x2="68.58" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-66.04" y1="45.72" x2="68.58" y2="45.72" width="0.254" layer="94"/>
+<wire x1="68.58" y1="45.72" x2="68.58" y2="-45.72" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STM32_VALUE_LINE_DISCOVERY">
+<gates>
+<gate name="G$1" symbol="STM32_VALUE_LINE_DISCOVERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STM32_VALUE_LINE_DISCOVERY">
+<connects>
+<connect gate="G$1" pin="3V3" pad="P1-3"/>
+<connect gate="G$1" pin="5V" pad="P2-3"/>
+<connect gate="G$1" pin="BOOT" pad="P2-6"/>
+<connect gate="G$1" pin="GND" pad="P1-1"/>
+<connect gate="G$1" pin="GND@1" pad="P1-28"/>
+<connect gate="G$1" pin="GND@2" pad="P2-1"/>
+<connect gate="G$1" pin="GND@3" pad="P2-28"/>
+<connect gate="G$1" pin="NC" pad="P1-2"/>
+<connect gate="G$1" pin="NC@1" pad="P2-2"/>
+<connect gate="G$1" pin="PA0/USART2_CTS/ADC1_IN0/TIM2_CH1_ETR" pad="P1-15"/>
+<connect gate="G$1" pin="PA1/USART2_RTS/ADC1_IN1/TIM2_CH2" pad="P1-16"/>
+<connect gate="G$1" pin="PA10/USART1_RX/TIM1_CH3" pad="P2-21"/>
+<connect gate="G$1" pin="PA11/USART1_CTS/TIM1_CH4" pad="P2-20"/>
+<connect gate="G$1" pin="PA12/USART1_RTS/TIM1_ETR" pad="P2-19"/>
+<connect gate="G$1" pin="PA13/JTMS/SWDIO" pad="P2-18"/>
+<connect gate="G$1" pin="PA14/JTCK/SWCLK" pad="P2-17"/>
+<connect gate="G$1" pin="PA15/JTDI" pad="P2-16"/>
+<connect gate="G$1" pin="PA2/USART2_TX/ADC1_IN2/TIM2_CH3/TIM15_CH1" pad="P1-17"/>
+<connect gate="G$1" pin="PA3/USART2_RX/ADC1_IN3/TIM2_CH4/TIM15_CH2" pad="P1-18"/>
+<connect gate="G$1" pin="PA4/SPI1_NSS/ADC1_IN4/USART2_CK/DAC1_OUT" pad="P1-19"/>
+<connect gate="G$1" pin="PA5/SPI1_SCK/ADC1_IN5/DAC2_OUT" pad="P1-20"/>
+<connect gate="G$1" pin="PA6/SPI1_MISO/ADC1_IN6/TIM3_CH1" pad="P1-21"/>
+<connect gate="G$1" pin="PA7/SPI1_MOSI/ADC1_IN7/TIM3_CH2" pad="P1-22"/>
+<connect gate="G$1" pin="PA8/USART1_CK/TIM1_CH1" pad="P2-23"/>
+<connect gate="G$1" pin="PA9/USART1_TX/TIM1_CH2" pad="P2-22"/>
+<connect gate="G$1" pin="PB0/ADC1_IN8/TIM3_CH3" pad="P1-25"/>
+<connect gate="G$1" pin="PB1/ADC1_IN9/TIM3_CH4" pad="P1-26"/>
+<connect gate="G$1" pin="PB10/I2C2_SCL/USART3_TX/TIM2_CH3/CEC" pad="P3-1"/>
+<connect gate="G$1" pin="PB11/I2C2_SDA/USART3_RX" pad="P3-2"/>
+<connect gate="G$1" pin="PB12/SPI2_NSS/I2C2_SMBA/TIM1_BKIN/USART3_CT5" pad="P3-3"/>
+<connect gate="G$1" pin="PB13/SPI2_SCK/TIM1_CH1N/USART3_CTS" pad="P3-4"/>
+<connect gate="G$1" pin="PB14/SPI2_MISO/TIM1_CH2N/USART3_RTS" pad="P3-5"/>
+<connect gate="G$1" pin="PB15/SPI2_MOSI/TIM1_CH3N/TIM15_CH1N" pad="P3-6"/>
+<connect gate="G$1" pin="PB2/BOOT1" pad="P1-27"/>
+<connect gate="G$1" pin="PB3" pad="P2-11"/>
+<connect gate="G$1" pin="PB4" pad="P2-10"/>
+<connect gate="G$1" pin="PB5/I2C1_SMBA/TIM16_BKIN" pad="P2-9"/>
+<connect gate="G$1" pin="PB6/I2C1_SCL/TIM4CH1/TIM16_CH1N" pad="P2-8"/>
+<connect gate="G$1" pin="PB7/I2C1_SDA/TIM17_CH1N/TIM4_CH2" pad="P2-7"/>
+<connect gate="G$1" pin="PB8/TIM4_CH3/TIM16_CH1/CEC" pad="P2-5"/>
+<connect gate="G$1" pin="PB9/TIM4_CH4/TIM17_CH1" pad="P2-4"/>
+<connect gate="G$1" pin="PC0/ADC1_IN10" pad="P1-11"/>
+<connect gate="G$1" pin="PC1/ADC1_IN11" pad="P1-12"/>
+<connect gate="G$1" pin="PC10" pad="P2-15"/>
+<connect gate="G$1" pin="PC11" pad="P2-14"/>
+<connect gate="G$1" pin="PC12" pad="P2-13"/>
+<connect gate="G$1" pin="PC13/TAMPER-RTC" pad="P1-5"/>
+<connect gate="G$1" pin="PC14/OSC32_IN" pad="P1-6"/>
+<connect gate="G$1" pin="PC15/OSC32_OUT" pad="P1-7"/>
+<connect gate="G$1" pin="PC2/ADC1_IN12" pad="P1-13"/>
+<connect gate="G$1" pin="PC3/ADC1_IN13" pad="P1-14"/>
+<connect gate="G$1" pin="PC4/ADC1_IN14" pad="P1-23"/>
+<connect gate="G$1" pin="PC5/ADC1_IN15" pad="P1-24"/>
+<connect gate="G$1" pin="PC6" pad="P2-27"/>
+<connect gate="G$1" pin="PC7" pad="P2-26"/>
+<connect gate="G$1" pin="PC8" pad="P2-25"/>
+<connect gate="G$1" pin="PC9" pad="P2-24"/>
+<connect gate="G$1" pin="PD0" pad="P1-8"/>
+<connect gate="G$1" pin="PD1" pad="P1-9"/>
+<connect gate="G$1" pin="PD2/TIM_ETR" pad="P2-12"/>
+<connect gate="G$1" pin="RST" pad="P1-10"/>
+<connect gate="G$1" pin="VBAT" pad="P1-4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

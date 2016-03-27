@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+</packages>
+<symbols>
+<symbol name="RX62N">
+<wire x1="-115" y1="130" x2="135" y2="130" width="0.254" layer="94"/>
+<wire x1="135" y1="130" x2="135" y2="-105" width="0.254" layer="94"/>
+<wire x1="135" y1="-105" x2="-115" y2="-105" width="0.254" layer="94"/>
+<wire x1="-115" y1="-105" x2="-115" y2="130" width="0.254" layer="94"/>
+<pin name="P$1" x="-120" y="110" length="middle"/>
+<pin name="P$2" x="-120" y="105" length="middle"/>
+<pin name="P$3" x="-120" y="100" length="middle"/>
+<pin name="P$4" x="-120" y="95" length="middle"/>
+<pin name="P$5" x="-120" y="90" length="middle"/>
+<pin name="P$6" x="-120" y="85" length="middle"/>
+<pin name="P$7" x="-120" y="80" length="middle"/>
+<pin name="P$8" x="-120" y="75" length="middle"/>
+<pin name="P$9" x="-120" y="70" length="middle"/>
+<pin name="P$10" x="-120" y="65" length="middle"/>
+<pin name="P$11" x="-120" y="60" length="middle"/>
+<pin name="P$12" x="-120" y="55" length="middle"/>
+<pin name="P$13" x="-120" y="50" length="middle"/>
+<pin name="P$14" x="-120" y="45" length="middle"/>
+<pin name="P$15" x="-120" y="40" length="middle"/>
+<pin name="P$16" x="-120" y="35" length="middle"/>
+<pin name="P$17" x="-120" y="30" length="middle"/>
+<pin name="P$18" x="-120" y="25" length="middle"/>
+<pin name="P$19" x="-120" y="20" length="middle"/>
+<pin name="P$20" x="-120" y="15" length="middle"/>
+<pin name="P$21" x="-120" y="10" length="middle"/>
+<pin name="P$22" x="-120" y="5" length="middle"/>
+<pin name="P$23" x="-120" y="0" length="middle"/>
+<pin name="P$24" x="-120" y="-5" length="middle"/>
+<pin name="P$25" x="-120" y="-10" length="middle"/>
+<pin name="P$26" x="-120" y="-15" length="middle"/>
+<pin name="P$27" x="-120" y="-20" length="middle"/>
+<pin name="P$28" x="-120" y="-25" length="middle"/>
+<pin name="P$29" x="-120" y="-30" length="middle"/>
+<pin name="P$30" x="-120" y="-35" length="middle"/>
+<pin name="P$31" x="-120" y="-40" length="middle"/>
+<pin name="P$32" x="-120" y="-45" length="middle"/>
+<pin name="P$33" x="-120" y="-50" length="middle"/>
+<pin name="P$34" x="-120" y="-55" length="middle"/>
+<pin name="P$35" x="-120" y="-60" length="middle"/>
+<pin name="P$36" x="-120" y="-65" length="middle"/>
+<pin name="P$37" x="-120" y="-70" length="middle"/>
+<pin name="P$38" x="-120" y="-75" length="middle"/>
+<pin name="P$39" x="-120" y="-80" length="middle"/>
+<pin name="P$40" x="-120" y="-85" length="middle"/>
+<pin name="P$41" x="-90" y="135" length="middle" rot="R270"/>
+<pin name="P$42" x="-85" y="135" length="middle" rot="R270"/>
+<pin name="P$43" x="-80" y="135" length="middle" rot="R270"/>
+<pin name="P$44" x="-75" y="135" length="middle" rot="R270"/>
+<pin name="P$45" x="-70" y="135" length="middle" rot="R270"/>
+<pin name="P$46" x="-65" y="135" length="middle" rot="R270"/>
+<pin name="P$47" x="-60" y="135" length="middle" rot="R270"/>
+<pin name="P$48" x="-55" y="135" length="middle" rot="R270"/>
+<pin name="P$49" x="-50" y="135" length="middle" rot="R270"/>
+<pin name="P$50" x="-45" y="135" length="middle" rot="R270"/>
+<pin name="P$51" x="-40" y="135" length="middle" rot="R270"/>
+<pin name="P$52" x="-35" y="135" length="middle" rot="R270"/>
+<pin name="P$53" x="-30" y="135" length="middle" rot="R270"/>
+<pin name="P$54" x="-25" y="135" length="middle" rot="R270"/>
+<pin name="P$55" x="-20" y="135" length="middle" rot="R270"/>
+<pin name="P$56" x="-15" y="135" length="middle" rot="R270"/>
+<pin name="P$57" x="-10" y="135" length="middle" rot="R270"/>
+<pin name="P$58" x="-5" y="135" length="middle" rot="R270"/>
+<pin name="P$59" x="0" y="135" length="middle" rot="R270"/>
+<pin name="P$60" x="5" y="135" length="middle" rot="R270"/>
+<pin name="P$61" x="10" y="135" length="middle" rot="R270"/>
+<pin name="P$62" x="15" y="135" length="middle" rot="R270"/>
+<pin name="P$63" x="20" y="135" length="middle" rot="R270"/>
+<pin name="P$64" x="25" y="135" length="middle" rot="R270"/>
+<pin name="P$65" x="30" y="135" length="middle" rot="R270"/>
+<pin name="P$66" x="35" y="135" length="middle" rot="R270"/>
+<pin name="P$67" x="40" y="135" length="middle" rot="R270"/>
+<pin name="P$68" x="45" y="135" length="middle" rot="R270"/>
+<pin name="P$69" x="50" y="135" length="middle" rot="R270"/>
+<pin name="P$70" x="55" y="135" length="middle" rot="R270"/>
+<pin name="P$71" x="60" y="135" length="middle" rot="R270"/>
+<pin name="P$72" x="65" y="135" length="middle" rot="R270"/>
+<pin name="P$73" x="70" y="135" length="middle" rot="R270"/>
+<pin name="P$74" x="75" y="135" length="middle" rot="R270"/>
+<pin name="P$75" x="80" y="135" length="middle" rot="R270"/>
+<pin name="P$76" x="85" y="135" length="middle" rot="R270"/>
+<pin name="P$77" x="90" y="135" length="middle" rot="R270"/>
+<pin name="P$78" x="95" y="135" length="middle" rot="R270"/>
+<pin name="P$79" x="100" y="135" length="middle" rot="R270"/>
+<pin name="P$80" x="105" y="135" length="middle" rot="R270"/>
+<pin name="P$81" x="140" y="110" length="middle" rot="R180"/>
+<pin name="P$82" x="140" y="105" length="middle" rot="R180"/>
+<pin name="P$83" x="140" y="100" length="middle" rot="R180"/>
+<pin name="P$84" x="140" y="95" length="middle" rot="R180"/>
+<pin name="P$85" x="140" y="90" length="middle" rot="R180"/>
+<pin name="P$86" x="140" y="85" length="middle" rot="R180"/>
+<pin name="P$87" x="140" y="80" length="middle" rot="R180"/>
+<pin name="P$88" x="140" y="75" length="middle" rot="R180"/>
+<pin name="P$89" x="140" y="70" length="middle" rot="R180"/>
+<pin name="P$90" x="140" y="65" length="middle" rot="R180"/>
+<pin name="P$91" x="140" y="60" length="middle" rot="R180"/>
+<pin name="P$92" x="140" y="55" length="middle" rot="R180"/>
+<pin name="P$93" x="140" y="50" length="middle" rot="R180"/>
+<pin name="P$94" x="140" y="45" length="middle" rot="R180"/>
+<pin name="P$95" x="140" y="40" length="middle" rot="R180"/>
+<pin name="P$96" x="140" y="35" length="middle" rot="R180"/>
+<pin name="P$97" x="140" y="30" length="middle" rot="R180"/>
+<pin name="P$98" x="140" y="25" length="middle" rot="R180"/>
+<pin name="P$99" x="140" y="20" length="middle" rot="R180"/>
+<pin name="P$100" x="140" y="15" length="middle" rot="R180"/>
+<pin name="P$101" x="140" y="10" length="middle" rot="R180"/>
+<pin name="P$102" x="140" y="5" length="middle" rot="R180"/>
+<pin name="P$103" x="140" y="0" length="middle" rot="R180"/>
+<pin name="P$104" x="140" y="-5" length="middle" rot="R180"/>
+<pin name="P$105" x="140" y="-10" length="middle" rot="R180"/>
+<pin name="P$106" x="140" y="-15" length="middle" rot="R180"/>
+<pin name="P$107" x="140" y="-20" length="middle" rot="R180"/>
+<pin name="P$108" x="140" y="-25" length="middle" rot="R180"/>
+<pin name="P$109" x="140" y="-30" length="middle" rot="R180"/>
+<pin name="P$110" x="140" y="-35" length="middle" rot="R180"/>
+<pin name="P$111" x="140" y="-40" length="middle" rot="R180"/>
+<pin name="P$112" x="140" y="-45" length="middle" rot="R180"/>
+<pin name="P$113" x="140" y="-50" length="middle" rot="R180"/>
+<pin name="P$114" x="140" y="-55" length="middle" rot="R180"/>
+<pin name="P$115" x="140" y="-60" length="middle" rot="R180"/>
+<pin name="P$116" x="140" y="-65" length="middle" rot="R180"/>
+<pin name="P$117" x="140" y="-70" length="middle" rot="R180"/>
+<pin name="P$118" x="140" y="-75" length="middle" rot="R180"/>
+<pin name="P$119" x="140" y="-80" length="middle" rot="R180"/>
+<pin name="P$120" x="140" y="-85" length="middle" rot="R180"/>
+<text x="-115" y="115" size="1.778" layer="94">CN1</text>
+<text x="-95" y="130" size="1.778" layer="94" rot="R90">CN2</text>
+<text x="135" y="115" size="1.778" layer="94">CN3</text>
+<text x="-120" y="110" size="1.778" layer="94">PA0</text>
+<text x="-120" y="105" size="1.778" layer="94">PA1</text>
+<text x="-120" y="100" size="1.778" layer="94">PA2</text>
+<text x="-120" y="95" size="1.778" layer="94">PA3</text>
+<text x="-120" y="90" size="1.778" layer="94">PA4</text>
+<text x="-120" y="80" size="1.778" layer="94">PA6</text>
+<text x="-120" y="85" size="1.778" layer="94">PA5</text>
+<text x="-120" y="75" size="1.778" layer="94">PA7</text>
+<text x="-120" y="70" size="1.778" layer="94">PB0</text>
+<text x="-120" y="65" size="1.778" layer="94">PB1</text>
+<text x="-120" y="60" size="1.778" layer="94">PB2</text>
+<text x="-120" y="55" size="1.778" layer="94">PB3</text>
+<text x="-120" y="50" size="1.778" layer="94">PB4</text>
+<text x="-120" y="45" size="1.778" layer="94">PB5</text>
+<text x="-120" y="40" size="1.778" layer="94">PB6</text>
+<text x="-120" y="35" size="1.778" layer="94">PB7</text>
+<text x="-120" y="30" size="1.778" layer="94">P90</text>
+<text x="-120" y="25" size="1.778" layer="94">P91</text>
+<text x="-120" y="20" size="1.778" layer="94">P92</text>
+<text x="-120" y="15" size="1.778" layer="94">P93</text>
+<text x="-150" y="10" size="1.778" layer="94">MTIOC4D-B / EDREQ0-C / P55</text>
+<text x="-120" y="5" size="1.778" layer="94">GND</text>
+<text x="-120" y="0" size="1.778" layer="94">PD0</text>
+<text x="-120" y="-5" size="1.778" layer="94">PD1</text>
+<text x="-120" y="-10" size="1.778" layer="94">PD2</text>
+<text x="-120" y="-15" size="1.778" layer="94">PD3</text>
+<text x="-120" y="-20" size="1.778" layer="94">PD4</text>
+<text x="-120" y="-25" size="1.778" layer="94">PD5</text>
+<text x="-120" y="-30" size="1.778" layer="94">PD6</text>
+<text x="-120" y="-35" size="1.778" layer="94">PD7</text>
+<text x="-120" y="-40" size="1.778" layer="94">PE0</text>
+<text x="-120" y="-45" size="1.778" layer="94">PE1</text>
+<text x="-120" y="-50" size="1.778" layer="94">PE2</text>
+<text x="-120" y="-55" size="1.778" layer="94">PE3</text>
+<text x="-120" y="-60" size="1.778" layer="94">PE4</text>
+<text x="-120" y="-65" size="1.778" layer="94">PE5</text>
+<text x="-120" y="-70" size="1.778" layer="94">PE6</text>
+<text x="-120" y="-75" size="1.778" layer="94">PE7</text>
+<text x="-120" y="-80" size="1.778" layer="94">P64</text>
+<text x="-120" y="-85" size="1.778" layer="94">P63</text>
+<text x="-91" y="131" size="1.778" layer="94" rot="R90">P40</text>
+<text x="-86" y="131" size="1.778" layer="94" rot="R90">P41</text>
+<text x="-81" y="131" size="1.778" layer="94" rot="R90">P42</text>
+<text x="-76" y="131" size="1.778" layer="94" rot="R90">P43</text>
+</symbol>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>
