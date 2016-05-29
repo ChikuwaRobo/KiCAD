@@ -165,56 +165,8 @@ Text Label 10550 1225 0    60   ~ 0
 A4(SDA)
 Text Label 10550 1125 0    60   ~ 0
 A5(SCL)
-$Comp
-L CONN_1 P5
-U 1 1 551BBC06
-P 10875 650
-F 0 "P5" H 10955 650 40  0000 L CNN
-F 1 "CONN_1" H 10875 705 30  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01" H 10875 650 60  0001 C CNN
-F 3 "" H 10875 650 60  0000 C CNN
-	1    10875 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P6
-U 1 1 551BBD10
-P 10950 650
-F 0 "P6" H 11030 650 40  0000 L CNN
-F 1 "CONN_1" H 10950 705 30  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01" H 10950 650 60  0001 C CNN
-F 3 "" H 10950 650 60  0000 C CNN
-	1    10950 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P7
-U 1 1 551BBD30
-P 11025 650
-F 0 "P7" H 11105 650 40  0000 L CNN
-F 1 "CONN_1" H 11025 705 30  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01" H 11025 650 60  0001 C CNN
-F 3 "" H 11025 650 60  0000 C CNN
-	1    11025 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 P8
-U 1 1 551BBD52
-P 11100 650
-F 0 "P8" H 11180 650 40  0000 L CNN
-F 1 "CONN_1" H 11100 705 30  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x01" H 11100 650 60  0001 C CNN
-F 3 "" H 11100 650 60  0000 C CNN
-	1    11100 650 
-	0    -1   -1   0   
-$EndComp
 Text Notes 10875 925  0    60   ~ 0
 Holes
-NoConn ~ 10875 800 
-NoConn ~ 10950 800 
-NoConn ~ 11025 800 
-NoConn ~ 11100 800 
 Wire Wire Line
 	8600 2425 9375 2425
 Wire Wire Line
@@ -500,17 +452,11 @@ F 3 "" H 6300 1300 60  0000 C CNN
 	1    6300 1300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6800 1400 6900 1400
-Wire Wire Line
-	6800 1500 6900 1500
-Wire Wire Line
-	6800 1600 6900 1600
-Text Label 6900 1400 0    60   ~ 0
+Text Label 6800 1500 0    60   ~ 0
 Reset
-Text Label 6900 1500 0    60   ~ 0
+Text Label 6800 1600 0    60   ~ 0
 1(Tx)
-Text Label 6900 1600 0    60   ~ 0
+Text Label 6800 1700 0    60   ~ 0
 0(Rx)
 $Comp
 L +5V #PWR014
@@ -542,17 +488,14 @@ F 3 "" H 7250 2350 60  0000 C CNN
 	1    7250 2350
 	0    1    1    0   
 $EndComp
-Text GLabel 6300 1600 0    60   BiDi ~ 0
+Text GLabel 6300 1500 0    60   BiDi ~ 0
 USB_DM
-Text GLabel 6300 1700 0    60   BiDi ~ 0
+Text GLabel 6300 1600 0    60   BiDi ~ 0
 USB_DP
 Text Label 5600 3450 0    60   ~ 0
 A1
-Wire Wire Line
-	6800 1700 6900 1700
 Text Label 3900 1850 0    60   ~ 0
 6(**)
-NoConn ~ 6300 1500
 $Comp
 L CONN_01X03 P12
 U 1 1 570D6FBC
@@ -649,6 +592,7 @@ Vin
 Wire Wire Line
 	5450 3450 5600 3450
 Connection ~ 5450 3450
-Text Label 6900 1700 0    60   ~ 0
+Text Label 6300 1700 2    60   ~ 0
 A2
+NoConn ~ 6800 1400
 $EndSCHEMATC
