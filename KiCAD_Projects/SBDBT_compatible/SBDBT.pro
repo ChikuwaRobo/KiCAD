@@ -1,4 +1,4 @@
-update=2016/06/03 21:44:06
+update=2016/06/04 0:11:59
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -35,3 +33,7 @@ LibName3=K:/マイドキュメント/KiCAD/library/conn
 LibName4=K:/マイドキュメント/KiCAD/library/microchip
 LibName5=K:/マイドキュメント/KiCAD/library/microchip1
 LibName6=K:/マイドキュメント/KiCAD/library/power
+LibName7=microchip_pic24mcu
+LibName8=device
+[general]
+version=1

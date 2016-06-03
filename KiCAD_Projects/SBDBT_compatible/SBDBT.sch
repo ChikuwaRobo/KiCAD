@@ -1,1 +1,115 @@
 EESchema Schematic File Version 2
+LIBS:74xx
+LIBS:atmel
+LIBS:conn
+LIBS:microchip
+LIBS:microchip1
+LIBS:power
+LIBS:microchip_pic24mcu
+LIBS:device
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB_A P?
+U 1 1 57518FF8
+P 1700 3500
+F 0 "P?" H 1900 3300 50  0000 C CNN
+F 1 "USB_A" H 1650 3700 50  0000 C CNN
+F 2 "" V 1650 3400 50  0000 C CNN
+F 3 "" V 1650 3400 50  0000 C CNN
+	1    1700 3500
+	0    -1   -1   0   
+$EndComp
+Text Label 3750 3450 2    60   ~ 0
+USB_DP
+Text Label 3750 3550 2    60   ~ 0
+USB_DM
+Text Label 7500 4050 0    60   ~ 0
+LED1
+Text Label 7500 4150 0    60   ~ 0
+LED2
+$Comp
+L +3.3V #PWR?
+U 1 1 575191A7
+P 4750 2350
+F 0 "#PWR?" H 4750 2310 30  0001 C CNN
+F 1 "+3.3V" H 4750 2460 30  0000 C CNN
+F 2 "" H 4750 2350 60  0000 C CNN
+F 3 "" H 4750 2350 60  0000 C CNN
+	1    4750 2350
+	1    0    0    -1  
+$EndComp
+Text Label 3750 4050 2    60   ~ 0
+STO
+Text Label 7500 4950 0    60   ~ 0
+TX
+Text Label 7500 5050 0    60   ~ 0
+RX
+$Comp
+L PIC24FJ64GB004 IC?
+U 1 1 57518F77
+P 4050 5850
+F 0 "IC?" H 4150 9050 60  0000 C CNN
+F 1 "PIC24FJ64GB004" H 6750 6250 60  0000 C CNN
+F 2 "" H 4050 5850 60  0000 C CNN
+F 3 "" H 4050 5850 60  0000 C CNN
+	1    4050 5850
+	1    0    0    -1  
+$EndComp
+Text Label 7500 5150 0    60   ~ 0
+CTS
+Text Label 7500 5250 0    60   ~ 0
+RTS
+$Comp
+L R R?
+U 1 1 5751968B
+P 3600 2600
+F 0 "R?" V 3680 2600 40  0000 C CNN
+F 1 "R" V 3607 2601 40  0000 C CNN
+F 2 "" V 3530 2600 30  0000 C CNN
+F 3 "" H 3600 2600 30  0000 C CNN
+	1    3600 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2400 4850 2450
+Wire Wire Line
+	4750 2350 4750 2450
+Connection ~ 4750 2400
+Wire Wire Line
+	4650 2450 4650 2400
+Wire Wire Line
+	3600 2400 4850 2400
+Wire Wire Line
+	3600 2400 3600 2450
+Connection ~ 4650 2400
+Wire Wire Line
+	3600 2750 3600 2850
+Wire Wire Line
+	3600 2850 3750 2850
+Text Label 3750 3250 2    60   ~ 0
+VBUS
+$Comp
+L +3.3V #PWR?
+U 1 1 575197EB
+P 3750 3050
+F 0 "#PWR?" H 3750 3010 30  0001 C CNN
+F 1 "+3.3V" H 3750 3160 30  0000 C CNN
+F 2 "" H 3750 3050 60  0000 C CNN
+F 3 "" H 3750 3050 60  0000 C CNN
+	1    3750 3050
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
