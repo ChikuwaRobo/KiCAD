@@ -1,0 +1,152 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D1
+U 1 1 56A732AB
+P 4150 2350
+F 0 "D1" H 4150 2450 50  0000 C CNN
+F 1 "LED" H 4150 2250 50  0000 C CNN
+F 2 "led:LED3MM" H 4150 2350 50  0001 C CNN
+F 3 "" H 4150 2350 50  0000 C CNN
+	1    4150 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 56A73307
+P 4500 2350
+F 0 "D2" H 4500 2450 50  0000 C CNN
+F 1 "LED" H 4500 2250 50  0000 C CNN
+F 2 "led:LED3MM" H 4500 2350 50  0001 C CNN
+F 3 "" H 4500 2350 50  0000 C CNN
+	1    4500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 56A73327
+P 4800 2350
+F 0 "D3" H 4800 2450 50  0000 C CNN
+F 1 "LED" H 4800 2250 50  0000 C CNN
+F 2 "led:LED3MM" H 4800 2350 50  0001 C CNN
+F 3 "" H 4800 2350 50  0000 C CNN
+	1    4800 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 56A73351
+P 4150 2700
+F 0 "R1" V 4230 2700 50  0000 C CNN
+F 1 "R" V 4150 2700 50  0000 C CNN
+F 2 "rp_r:0207%2f12" V 4080 2700 50  0001 C CNN
+F 3 "" H 4150 2700 50  0000 C CNN
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 56A733AC
+P 4500 2700
+F 0 "R2" V 4580 2700 50  0000 C CNN
+F 1 "R" V 4500 2700 50  0000 C CNN
+F 2 "rp_r:0207%2f12" V 4430 2700 50  0001 C CNN
+F 3 "" H 4500 2700 50  0000 C CNN
+	1    4500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 56A733D3
+P 4800 2700
+F 0 "R3" V 4880 2700 50  0000 C CNN
+F 1 "R" V 4800 2700 50  0000 C CNN
+F 2 "rp_r:0207%2f12" V 4730 2700 50  0001 C CNN
+F 3 "" H 4800 2700 50  0000 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2150 4150 2050
+Wire Wire Line
+	4150 2050 4800 2050
+Wire Wire Line
+	4800 2050 4800 2150
+Wire Wire Line
+	4150 2850 4150 2950
+Wire Wire Line
+	4150 2950 4800 2950
+Wire Wire Line
+	4800 2950 4800 2850
+Wire Wire Line
+	4500 2850 4500 3000
+Connection ~ 4500 2950
+Wire Wire Line
+	4500 2000 4500 2150
+Connection ~ 4500 2050
+$Comp
+L CONN_01X02 P1
+U 1 1 56A7345D
+P 5600 2200
+F 0 "P1" H 5600 2350 50  0000 C CNN
+F 1 "CONN_01X02" V 5700 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5600 2200 50  0001 C CNN
+F 3 "" H 5600 2200 50  0000 C CNN
+	1    5600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2150 5150 2150
+Wire Wire Line
+	5150 2150 5150 2000
+Wire Wire Line
+	5150 2000 4500 2000
+Wire Wire Line
+	4500 3000 5150 3000
+Wire Wire Line
+	5150 3000 5150 2250
+Wire Wire Line
+	5150 2250 5400 2250
+$EndSCHEMATC

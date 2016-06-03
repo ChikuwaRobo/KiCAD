@@ -1,0 +1,167 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:user
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP73831 CHG?
+U 1 1 56F0957B
+P 2700 3650
+F 0 "CHG?" H 2700 4000 60  0000 C CNN
+F 1 "MCP73831" H 2700 3300 60  0000 C CNN
+F 2 "" H 2700 3650 60  0000 C CNN
+F 3 "" H 2700 3650 60  0000 C CNN
+	1    2700 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 56F095B0
+P 4400 3550
+F 0 "P?" V 4350 3550 40  0000 C CNN
+F 1 "CONN_2" V 4450 3550 40  0000 C CNN
+F 2 "" H 4400 3550 60  0000 C CNN
+F 3 "" H 4400 3550 60  0000 C CNN
+	1    4400 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 56F0962F
+P 1400 3550
+F 0 "P?" V 1350 3550 40  0000 C CNN
+F 1 "CONN_2" V 1450 3550 40  0000 C CNN
+F 2 "" H 1400 3550 60  0000 C CNN
+F 3 "" H 1400 3550 60  0000 C CNN
+	1    1400 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 56F096E2
+P 1950 3550
+F 0 "C?" H 1950 3650 40  0000 L CNN
+F 1 "C" H 1956 3465 40  0000 L CNN
+F 2 "" H 1988 3400 30  0000 C CNN
+F 3 "" H 1950 3550 60  0000 C CNN
+	1    1950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 56F0974D
+P 3350 3550
+F 0 "C?" H 3350 3650 40  0000 L CNN
+F 1 "C" H 3356 3465 40  0000 L CNN
+F 2 "" H 3388 3400 30  0000 C CNN
+F 3 "" H 3350 3550 60  0000 C CNN
+	1    3350 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56F0979E
+P 2000 3850
+F 0 "R?" V 2080 3850 40  0000 C CNN
+F 1 "R" V 2007 3851 40  0000 C CNN
+F 2 "" V 1930 3850 30  0000 C CNN
+F 3 "" H 2000 3850 30  0000 C CNN
+	1    2000 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 56F09813
+P 2700 3100
+F 0 "D?" H 2700 3200 50  0000 C CNN
+F 1 "LED" H 2700 3000 50  0000 C CNN
+F 2 "" H 2700 3100 60  0000 C CNN
+F 3 "" H 2700 3100 60  0000 C CNN
+	1    2700 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 3650
+Wire Wire Line
+	3150 3450 4050 3450
+Wire Wire Line
+	3150 3650 3150 3550
+Wire Wire Line
+	3550 3550 3550 3450
+Connection ~ 3550 3450
+Wire Wire Line
+	1750 3450 2250 3450
+Wire Wire Line
+	1750 3850 1750 3650
+Wire Wire Line
+	1750 3650 2150 3650
+Wire Wire Line
+	2150 3650 2150 3550
+Wire Wire Line
+	1750 3100 1750 3550
+Wire Wire Line
+	2150 3550 3150 3550
+Connection ~ 1750 3650
+Connection ~ 1750 3450
+Connection ~ 2150 3550
+Connection ~ 3150 3550
+Wire Wire Line
+	4050 3650 3150 3650
+$Comp
+L R R?
+U 1 1 56F0988F
+P 3700 3600
+F 0 "R?" V 3780 3600 40  0000 C CNN
+F 1 "R" V 3707 3601 40  0000 C CNN
+F 2 "" V 3630 3600 30  0000 C CNN
+F 3 "" H 3700 3600 30  0000 C CNN
+	1    3700 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 3100 2500 3100
+Wire Wire Line
+	2900 3100 3700 3100
+Wire Wire Line
+	3700 3100 3700 3350
+Wire Wire Line
+	3150 3850 3700 3850
+$EndSCHEMATC
