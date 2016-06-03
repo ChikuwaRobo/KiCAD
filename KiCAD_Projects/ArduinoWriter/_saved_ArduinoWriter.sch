@@ -1,0 +1,145 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DIL24 P2
+U 1 1 5730417D
+P 5650 3200
+F 0 "P2" H 5650 3300 50  0000 C CNN
+F 1 "DIL24" H 5650 3100 50  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W15.24mm_LongPads" H 5650 3200 50  0001 C CNN
+F 3 "" H 5650 3200 50  0000 C CNN
+	1    5650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 573041EF
+P 5300 3250
+F 0 "#PWR01" H 5300 3000 50  0001 C CNN
+F 1 "GND" H 5300 3100 50  0000 C CNN
+F 2 "" H 5300 3250 50  0000 C CNN
+F 3 "" H 5300 3250 50  0000 C CNN
+	1    5300 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57304204
+P 6000 2650
+F 0 "#PWR02" H 6000 2400 50  0001 C CNN
+F 1 "GND" H 6000 2500 50  0000 C CNN
+F 2 "" H 6000 2650 50  0000 C CNN
+F 3 "" H 6000 2650 50  0000 C CNN
+	1    6000 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 573042E3
+P 4450 2400
+F 0 "#PWR03" H 4450 2150 50  0001 C CNN
+F 1 "GND" H 4450 2250 50  0000 C CNN
+F 2 "" H 4450 2400 50  0000 C CNN
+F 3 "" H 4450 2400 50  0000 C CNN
+	1    4450 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X05 P1
+U 1 1 57304306
+P 4250 2600
+F 0 "P1" H 4250 2900 50  0000 C CNN
+F 1 "CONN_01X05" V 4350 2600 50  0000 C CNN
+F 2 "RP_KiCAD_Connector:XA_5SC" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0000 C CNN
+	1    4250 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 573043CF
+P 6000 3650
+F 0 "#PWR04" H 6000 3500 50  0001 C CNN
+F 1 "+5V" H 6000 3790 50  0000 C CNN
+F 2 "" H 6000 3650 50  0000 C CNN
+F 3 "" H 6000 3650 50  0000 C CNN
+	1    6000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 57304453
+P 4450 2500
+F 0 "#PWR05" H 4450 2350 50  0001 C CNN
+F 1 "+5V" H 4450 2640 50  0000 C CNN
+F 2 "" H 4450 2500 50  0000 C CNN
+F 3 "" H 4450 2500 50  0000 C CNN
+	1    4450 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 57304464
+P 4550 2600
+F 0 "C1" H 4560 2670 50  0000 L CNN
+F 1 "C_Small" H 4560 2520 50  0000 L CNN
+F 2 "RP_KiCAD_Libs:C1206K" H 4550 2600 50  0001 C CNN
+F 3 "" H 4550 2600 50  0000 C CNN
+	1    4550 2600
+	0    1    1    0   
+$EndComp
+Text Label 4650 2600 0    60   ~ 0
+RST
+Text Label 4450 2700 0    60   ~ 0
+RX
+Text Label 4450 2800 0    60   ~ 0
+TX
+Text Label 5300 2750 2    60   ~ 0
+RST
+Text Label 5300 2650 2    60   ~ 0
+TX
+Text Label 5300 3050 2    60   ~ 0
+RX
+$EndSCHEMATC

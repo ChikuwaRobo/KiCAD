@@ -1,0 +1,8 @@
+[Desktop Entry]
+BinaryPattern=kicad;
+MimeType=text/pro
+Name=KiCad
+Exec=/usr/local/kicad/bin/kicad
+Icon=/usr/local/kicad/bin/kicad.png
+Type=Application
+Terminal=0
