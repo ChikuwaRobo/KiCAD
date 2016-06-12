@@ -1,0 +1,75 @@
+EESchema Schematic File Version 2
+LIBS:conn
+LIBS:device
+LIBS:stm32
+LIBS:0.5_48_pitchAdabter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F103_48 U1
+U 1 1 575C29C6
+P 5150 3300
+F 0 "U1" H 5150 3200 50  0000 C CNN
+F 1 "STM32F103_48" H 5150 3400 50  0000 C CNN
+F 2 "Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm" H 5150 3300 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5150 3300 50  0001 C CNN
+	1    5150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P1
+U 1 1 575C2E06
+P 3300 3300
+F 0 "P1" H 3300 3950 50  0000 C CNN
+F 1 "CONN_01X12" V 3400 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x12" H 3300 3300 50  0001 C CNN
+F 3 "" H 3300 3300 50  0000 C CNN
+	1    3300 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X12 P3
+U 1 1 575C2E74
+P 5150 5150
+F 0 "P3" H 5150 5800 50  0000 C CNN
+F 1 "CONN_01X12" V 5250 5150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x12" H 5150 5150 50  0001 C CNN
+F 3 "" H 5150 5150 50  0000 C CNN
+	1    5150 5150
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X12 P4
+U 1 1 575C2F02
+P 7000 3300
+F 0 "P4" H 7000 3950 50  0000 C CNN
+F 1 "CONN_01X12" V 7100 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x12" H 7000 3300 50  0001 C CNN
+F 3 "" H 7000 3300 50  0000 C CNN
+	1    7000 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X12 P2
+U 1 1 575C2F60
+P 5150 1450
+F 0 "P2" H 5150 2100 50  0000 C CNN
+F 1 "CONN_01X12" V 5250 1450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x12" H 5150 1450 50  0001 C CNN
+F 3 "" H 5150 1450 50  0000 C CNN
+	1    5150 1450
+	0    1    -1   0   
+$EndComp
+$EndSCHEMATC
