@@ -1,4 +1,4 @@
-(module XA_2S (layer F.Cu) (tedit 56B5841B)
+(module XA_2S (layer F.Cu) (tedit 5763B219)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -18,8 +18,8 @@
   (fp_line (start -2.5 9.2) (end 5 9.2) (layer F.SilkS) (width 0.5))
   (fp_line (start 5 -3.4) (end 5 9.2) (layer F.SilkS) (width 0.5))
   (fp_line (start -2.5 -3.4) (end -2.5 9.2) (layer F.SilkS) (width 0.5))
-  (pad 1 thru_hole oval (at 0 0) (size 1.5 2.5) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole oval (at 2.5 0) (size 1.5 2.5) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole oval (at 0 0) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at 2.5 0) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole oval (at 1.25 6.5) (size 3 2.5) (drill oval 3 2.5) (layers *.Cu *.Mask F.SilkS))
   (model conn_XA/XA_2S.wrl
     (at (xyz 0.05 -0.2 0))
