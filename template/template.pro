@@ -1,4 +1,4 @@
-update=2016/06/17 20:30:44
+update=2016/06/21 19:59:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,5 +37,6 @@ LibName7=C:/Users/hiroyuki/Documents/KiCAD/library/power
 LibName8=C:/Users/hiroyuki/Documents/KiCAD/library/relays
 LibName9=C:/Users/hiroyuki/Documents/KiCAD/library/special
 LibName10=C:/Users/hiroyuki/Documents/KiCAD/library/transistors
+LibName11=regul
 [general]
 version=1
