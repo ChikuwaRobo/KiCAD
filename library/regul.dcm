@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2013-02-23 10:03:06
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 7805
 D Linear Regulator +5V
@@ -39,6 +39,10 @@ $ENDCMP
 $CMP BQ2003
 D Controleur de chargeur de batteries
 F regulator\bq2003.pdf
+$ENDCMP
+#
+$CMP BX50FC0
+D ROHOM 5.0V-1A low drop
 $ENDCMP
 #
 $CMP LD3985G
@@ -239,12 +243,6 @@ K POWER REGUL
 F regulator/lm117.pdf
 $ENDCMP
 #
-$CMP LM317_SOT223
-D Linear Regulator (adjustable)
-K POWER REGUL
-F regulator/lm117.pdf
-$ENDCMP
-#
 $CMP LM317AEMP
 D LM317AEMP, 1A 35V Adjustable Linear Regulator, SOT-223
 K Adjustable Voltage Regulator 1A Positive
@@ -303,6 +301,12 @@ $CMP LM317T
 D LM317T, 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1.5A Positive
 F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317_SOT223
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
 $ENDCMP
 #
 $CMP LM337H
@@ -734,12 +738,12 @@ K REGUL POWER
 F linear-tec/lt1129.pdf
 $ENDCMP
 #
-$CMP LT1175_QP
+$CMP LT1175CN8
 D REGULATOR (Negative voltage)
 F linear-tec/lt1175.pdf
 $ENDCMP
 #
-$CMP LT1175CN8
+$CMP LT1175_QP
 D REGULATOR (Negative voltage)
 F linear-tec/lt1175.pdf
 $ENDCMP
@@ -786,12 +790,6 @@ $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator (MSOP package)
 $ENDCMP
 #
-$CMP LT_1129_QP
-D LowDrop Linear Regulator (QPACK 5 pins)
-K REGUL POWER
-F linear-tec/lt1129.pdf
-$ENDCMP
-#
 $CMP LTC1307
 D Switching Regulator (Single cell micropower)
 K POWER
@@ -823,6 +821,12 @@ $ENDCMP
 $CMP LTC3525
 D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect
 F linear-tec\ltc3525.pdf
+$ENDCMP
+#
+$CMP LT_1129_QP
+D LowDrop Linear Regulator (QPACK 5 pins)
+K REGUL POWER
+F linear-tec/lt1129.pdf
 $ENDCMP
 #
 $CMP MAX1647
