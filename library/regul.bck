@@ -41,10 +41,6 @@ D Controleur de chargeur de batteries
 F regulator\bq2003.pdf
 $ENDCMP
 #
-$CMP BX50FC0
-D ROHOM 5.0V-1A low drop
-$ENDCMP
-#
 $CMP LD3985G
 D 150 mA Low Dropout Voltage Regulator
 K LDO Regulator
