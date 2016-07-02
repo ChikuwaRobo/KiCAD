@@ -1,4 +1,4 @@
-update=2016/07/01 17:37:05
+update=2016/07/02 9:35:37
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,9 +27,10 @@ NetIExt=net
 version=1
 LibDir=../../library
 [eeschema/libraries]
-LibName1=K:/マイドキュメント/KiCAD/library/conn
-LibName2=K:/マイドキュメント/KiCAD/library/device
-LibName3=K:/マイドキュメント/KiCAD/library/user
-LibName4=power
+LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
 [general]
 version=1
