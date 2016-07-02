@@ -60,6 +60,12 @@ K Dual Pole Relay
 F http://gfinder.findernet.com//assets/Series/37/S44EN.pdf
 $ENDCMP
 #
+$CMP OMRON_G6E
+D FINDER 40.51, Single Pole Relay, 5mm Pitch, 10A
+K Single Pole Relay
+F http://gfinder.findernet.com//assets/Series/5/S40EN.pdf
+$ENDCMP
+#
 $CMP RM50-xx11
 D RM50-xx11, Single Pole Relay, Sugar Cube, 15A
 K Single Pole Relay Sugar Cube
