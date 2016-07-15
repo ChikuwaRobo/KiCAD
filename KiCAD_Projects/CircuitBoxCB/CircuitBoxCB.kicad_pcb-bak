@@ -1029,7 +1029,7 @@
   )
 
   (module RP_KiCAD_Libs:C3216 (layer B.Cu) (tedit 0) (tstamp 57708281)
-    (at 19.05 15.24 270)
+    (at 19 15 270)
     (descr <b>CAPACITOR</b>)
     (path /57708FAF)
     (fp_text reference C2 (at -1.27 1.27 270) (layer B.SilkS)
