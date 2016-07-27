@@ -1,0 +1,410 @@
+EESchema Schematic File Version 2
+LIBS:conn
+LIBS:device
+LIBS:power
+LIBS:regul
+LIBS:user
+LIBS:atmel
+LIBS:opto
+LIBS:CNC_GRBL_Controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA328-P IC1
+U 1 1 5796B435
+P 4600 2400
+F 0 "IC1" H 3850 3650 40  0000 L BNN
+F 1 "ATMEGA328-P" H 5000 1000 40  0000 L BNN
+F 2 "Housings_DIP:DIP-28_W7.62mm_LongPads" H 4600 2400 30  0000 C CIN
+F 3 "" H 4600 2400 60  0000 C CNN
+	1    4600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DB25 J1
+U 1 1 5796B45F
+P 8550 2400
+F 0 "J1" H 8600 3750 50  0000 C CNN
+F 1 "DB25" H 8500 1050 50  0000 C CNN
+F 2 "Connect:DB25F_CI" H 8550 2400 50  0001 C CNN
+F 3 "" H 8550 2400 50  0000 C CNN
+	1    8550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 5796B4D6
+P 6750 2000
+F 0 "X1" H 6750 2150 60  0000 C CNN
+F 1 "CRYSTAL" H 6750 1850 60  0000 C CNN
+F 2 "Crystals:HC-18UV" H 6750 2000 60  0001 C CNN
+F 3 "" H 6750 2000 60  0000 C CNN
+	1    6750 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C3
+U 1 1 5796B54D
+P 7050 2200
+F 0 "C3" H 7050 2300 40  0000 L CNN
+F 1 "C" H 7056 2115 40  0000 L CNN
+F 2 "RP_KiCAD_Libs:C1608" H 7088 2050 30  0001 C CNN
+F 3 "" H 7050 2200 60  0000 C CNN
+	1    7050 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
+U 1 1 5796B5EE
+P 6450 2200
+F 0 "C2" H 6450 2300 40  0000 L CNN
+F 1 "C" H 6456 2115 40  0000 L CNN
+F 2 "RP_KiCAD_Libs:C1608" H 6488 2050 30  0001 C CNN
+F 3 "" H 6450 2200 60  0000 C CNN
+	1    6450 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 5796B62B
+P 3600 2650
+F 0 "C1" H 3600 2750 40  0000 L CNN
+F 1 "C" H 3606 2565 40  0000 L CNN
+F 2 "RP_KiCAD_Libs:C1608" H 3638 2500 30  0001 C CNN
+F 3 "" H 3600 2650 60  0000 C CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1900 3600 1900
+Wire Wire Line
+	3600 1200 3600 2450
+Wire Wire Line
+	3600 1300 3700 1300
+Wire Wire Line
+	3700 1600 3600 1600
+Connection ~ 3600 1600
+Connection ~ 3600 1900
+Wire Wire Line
+	3600 2850 3600 3700
+Wire Wire Line
+	3600 3500 3700 3500
+Wire Wire Line
+	3600 3600 3700 3600
+Connection ~ 3600 3500
+Connection ~ 3600 3600
+Connection ~ 3600 1300
+$Comp
+L +5V #PWR01
+U 1 1 5796B832
+P 3600 1200
+F 0 "#PWR01" H 3600 1290 20  0001 C CNN
+F 1 "+5V" H 3600 1290 30  0000 C CNN
+F 2 "" H 3600 1200 60  0000 C CNN
+F 3 "" H 3600 1200 60  0000 C CNN
+	1    3600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5796B852
+P 3600 3700
+F 0 "#PWR02" H 3600 3700 30  0001 C CNN
+F 1 "GND" H 3600 3630 30  0001 C CNN
+F 2 "" H 3600 3700 60  0000 C CNN
+F 3 "" H 3600 3700 60  0000 C CNN
+	1    3600 3700
+	1    0    0    -1  
+$EndComp
+Text Label 5600 1700 0    60   ~ 0
+Spindle_EN
+Text Label 5600 1600 0    60   ~ 0
+Limit_Z
+Text Label 5600 1500 0    60   ~ 0
+Limit_Y
+Text Label 5600 1400 0    60   ~ 0
+Limit_X
+Text Label 5600 1300 0    60   ~ 0
+Stepper_~EN
+Text Label 5600 3600 0    60   ~ 0
+Z_Dir
+Text Label 5600 3500 0    60   ~ 0
+Y_Dir
+Text Label 5600 3400 0    60   ~ 0
+X_Dir
+Text Label 5600 3300 0    60   ~ 0
+Z_Step
+Text Label 5600 3200 0    60   ~ 0
+Y_Step
+Text Label 5600 3100 0    60   ~ 0
+X_Step
+Text Label 5600 2150 0    60   ~ 0
+Reset/Abort
+Text Label 5600 2250 0    60   ~ 0
+Feed_Hold
+Text Label 5600 2350 0    60   ~ 0
+Cycle_Stat
+Text Label 5600 2450 0    60   ~ 0
+Coolant_EN
+Text Label 5600 2550 0    60   ~ 0
+Not_Used
+Text Label 6650 4050 0    60   ~ 0
+Probe
+Text Label 8100 3600 2    60   ~ 0
+Spindle_EN
+Text Label 8100 1200 2    60   ~ 0
+Limit_Z
+Text Label 8100 1400 2    60   ~ 0
+Limit_Y
+Text Label 8100 1600 2    60   ~ 0
+Limit_X
+Text Label 8100 2900 2    60   ~ 0
+Stepper_~EN
+Text Label 8100 2400 2    60   ~ 0
+Z_Dir
+Text Label 8100 2800 2    60   ~ 0
+Y_Dir
+Text Label 8100 3200 2    60   ~ 0
+X_Dir
+Text Label 8100 2600 2    60   ~ 0
+Z_Step
+Text Label 8100 3000 2    60   ~ 0
+Y_Step
+Text Label 8100 3400 2    60   ~ 0
+X_Step
+Text Label 8100 3300 2    60   ~ 0
+Reset/Abort
+Text Label 6650 4350 0    60   ~ 0
+Feed_Hold
+Text Label 6650 4250 0    60   ~ 0
+Cycle_Stat
+Text Label 6650 4150 0    60   ~ 0
+Coolant_EN
+Text Label 5600 2650 0    60   ~ 0
+Probe
+$Comp
+L GND #PWR03
+U 1 1 5796C269
+P 8100 1300
+F 0 "#PWR03" H 8100 1300 30  0001 C CNN
+F 1 "GND" H 8100 1230 30  0001 C CNN
+F 2 "" H 8100 1300 60  0000 C CNN
+F 3 "" H 8100 1300 60  0000 C CNN
+	1    8100 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5796C305
+P 8100 1500
+F 0 "#PWR04" H 8100 1500 30  0001 C CNN
+F 1 "GND" H 8100 1430 30  0001 C CNN
+F 2 "" H 8100 1500 60  0000 C CNN
+F 3 "" H 8100 1500 60  0000 C CNN
+	1    8100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5796C322
+P 8100 1700
+F 0 "#PWR05" H 8100 1700 30  0001 C CNN
+F 1 "GND" H 8100 1630 30  0001 C CNN
+F 2 "" H 8100 1700 60  0000 C CNN
+F 3 "" H 8100 1700 60  0000 C CNN
+	1    8100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5796C33F
+P 8100 1900
+F 0 "#PWR06" H 8100 1900 30  0001 C CNN
+F 1 "GND" H 8100 1830 30  0001 C CNN
+F 2 "" H 8100 1900 60  0000 C CNN
+F 3 "" H 8100 1900 60  0000 C CNN
+	1    8100 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5796C35C
+P 8100 2100
+F 0 "#PWR07" H 8100 2100 30  0001 C CNN
+F 1 "GND" H 8100 2030 30  0001 C CNN
+F 2 "" H 8100 2100 60  0000 C CNN
+F 3 "" H 8100 2100 60  0000 C CNN
+	1    8100 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5796C379
+P 8100 2300
+F 0 "#PWR08" H 8100 2300 30  0001 C CNN
+F 1 "GND" H 8100 2230 30  0001 C CNN
+F 2 "" H 8100 2300 60  0000 C CNN
+F 3 "" H 8100 2300 60  0000 C CNN
+	1    8100 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5796C396
+P 8100 2500
+F 0 "#PWR09" H 8100 2500 30  0001 C CNN
+F 1 "GND" H 8100 2430 30  0001 C CNN
+F 2 "" H 8100 2500 60  0000 C CNN
+F 3 "" H 8100 2500 60  0000 C CNN
+	1    8100 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5796C3B3
+P 8100 2700
+F 0 "#PWR010" H 8100 2700 30  0001 C CNN
+F 1 "GND" H 8100 2630 30  0001 C CNN
+F 2 "" H 8100 2700 60  0000 C CNN
+F 3 "" H 8100 2700 60  0000 C CNN
+	1    8100 2700
+	0    1    1    0   
+$EndComp
+NoConn ~ 8100 2200
+NoConn ~ 8100 2000
+NoConn ~ 8100 1800
+$Comp
+L R R1
+U 1 1 57971781
+P 6650 2750
+F 0 "R1" V 6730 2750 40  0000 C CNN
+F 1 "R" V 6657 2751 40  0000 C CNN
+F 2 "RP_KiCAD_Libs:C1608" V 6580 2750 30  0001 C CNN
+F 3 "" H 6650 2750 30  0000 C CNN
+	1    6650 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR011
+U 1 1 579718B1
+P 6800 2750
+F 0 "#PWR011" H 6800 2840 20  0001 C CNN
+F 1 "+5V" H 6800 2840 30  0000 C CNN
+F 2 "" H 6800 2750 60  0000 C CNN
+F 3 "" H 6800 2750 60  0000 C CNN
+	1    6800 2750
+	0    1    1    0   
+$EndComp
+Text Label 5600 2900 0    60   ~ 0
+Arduino_RX
+Text Label 5600 3000 0    60   ~ 0
+Arduino_TX
+Wire Wire Line
+	5600 2000 6450 2000
+Wire Wire Line
+	5600 1900 7050 1900
+Wire Wire Line
+	7050 1900 7050 2000
+Wire Wire Line
+	6450 2400 7050 2400
+Wire Wire Line
+	6750 2400 6750 2500
+Connection ~ 6750 2400
+$Comp
+L GND #PWR012
+U 1 1 579761DD
+P 6750 2500
+F 0 "#PWR012" H 6750 2500 30  0001 C CNN
+F 1 "GND" H 6750 2430 30  0001 C CNN
+F 2 "" H 6750 2500 60  0000 C CNN
+F 3 "" H 6750 2500 60  0000 C CNN
+	1    6750 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 2000
+Connection ~ 6450 2000
+Text Label 5600 1800 0    60   ~ 0
+Spindle_Dir
+$Comp
+L SW_PUSH_SMALL SW1
+U 1 1 579769FA
+P 6400 2950
+F 0 "SW1" H 6550 3060 30  0000 C CNN
+F 1 "SW_PUSH_SMALL" H 6400 2871 30  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_DIP_x1_Slide" H 6400 2950 60  0001 C CNN
+F 3 "" H 6400 2950 60  0000 C CNN
+	1    6400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2750 6500 2750
+Wire Wire Line
+	6300 2850 6300 2750
+Connection ~ 6300 2750
+$Comp
+L GND #PWR013
+U 1 1 57976B05
+P 6500 3150
+F 0 "#PWR013" H 6500 3150 30  0001 C CNN
+F 1 "GND" H 6500 3080 30  0001 C CNN
+F 2 "" H 6500 3150 60  0000 C CNN
+F 3 "" H 6500 3150 60  0000 C CNN
+	1    6500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3150 6500 3050
+Text Label 6650 4450 0    60   ~ 0
+Reset/Abort
+NoConn ~ 8100 3500
+NoConn ~ 8100 3100
+$Comp
+L GND #PWR014
+U 1 1 57977EC9
+P 6650 4550
+F 0 "#PWR014" H 6650 4550 30  0001 C CNN
+F 1 "GND" H 6650 4480 30  0001 C CNN
+F 2 "" H 6650 4550 60  0000 C CNN
+F 3 "" H 6650 4550 60  0000 C CNN
+	1    6650 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X06 P1
+U 1 1 57979041
+P 6450 4300
+F 0 "P1" H 6450 4650 50  0000 C CNN
+F 1 "CONN_01X06" V 6550 4300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 6450 4300 50  0001 C CNN
+F 3 "" H 6450 4300 50  0000 C CNN
+	1    6450 4300
+	-1   0    0    1   
+$EndComp
+Text Label 5200 4200 0    60   ~ 0
+Arduino_RX
+Text Label 5200 4300 0    60   ~ 0
+Arduino_TX
+$Comp
+L CONN_01X02 P2
+U 1 1 57979638
+P 5000 4250
+F 0 "P2" H 5000 4400 50  0000 C CNN
+F 1 "CONN_01X02" V 5100 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5000 4250 50  0001 C CNN
+F 3 "" H 5000 4250 50  0000 C CNN
+	1    5000 4250
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
