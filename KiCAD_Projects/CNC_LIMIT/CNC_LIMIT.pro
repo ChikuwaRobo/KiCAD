@@ -1,4 +1,4 @@
-update=2016/08/01 18:16:25
+update=2016/08/01 23:07:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -32,5 +34,5 @@ LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
 LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
 LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
 LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-[general]
-version=1
+LibName6=opto
+LibName7=sensors

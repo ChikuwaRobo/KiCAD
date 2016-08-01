@@ -1,0 +1,50 @@
+(export (version D)
+  (design
+    (source C:/Users/hiroyuki/Documents/KiCAD/KiCAD_Projects/CNC_LIMIT/CNC_LIMIT.sch)
+    (date "2016/08/01 23:08:33")
+    (tool "Eeschema 4.0.2-stable")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source CNC_LIMIT.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref IC1)
+      (value PC3H4)
+      (footprint SOP4)
+      (libsource (lib opto) (part PC3H4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 579F57F7)))
+  (libparts
+    (libpart (lib opto) (part PC3H4)
+      (aliases
+        (alias PC3H4A))
+      (description "PC3H4, SOP4, AC/DC Optocoupler, Vce 70V, CTR 100-250%")
+      (docs http://www.sharpsme.com/download/pc3h4-epdf)
+      (fields
+        (field (name Reference) IC)
+        (field (name Value) PC3H4)
+        (field (name Footprint) SOP4))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive)))))
+  (libraries
+    (library (logical opto)
+      (uri opto.lib)))
+  (nets
+    (net (code 1) (name "Net-(IC1-Pad1)")
+      (node (ref IC1) (pin 1)))
+    (net (code 2) (name "Net-(IC1-Pad2)")
+      (node (ref IC1) (pin 2)))
+    (net (code 3) (name "Net-(IC1-Pad3)")
+      (node (ref IC1) (pin 3)))
+    (net (code 4) (name "Net-(IC1-Pad4)")
+      (node (ref IC1) (pin 4)))))
