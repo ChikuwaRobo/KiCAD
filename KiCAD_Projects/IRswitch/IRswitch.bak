@@ -6,6 +6,7 @@ LIBS:regul
 LIBS:user
 LIBS:atmel
 LIBS:relays
+LIBS:IRswitch-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -64,6 +65,11 @@ F 3 "" H 2400 2950 60  0000 C CNN
 	1    2400 2950
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2600 2350 2600 2950
+Wire Wire Line
+	2600 2650 2700 2650
+Connection ~ 2600 2650
 $Comp
 L GND #PWR01
 U 1 1 57780277
@@ -94,6 +100,24 @@ F 3 "" H 3000 2950 60  0000 C CNN
 	1    3000 2950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3100 1800 3000 1800
+Wire Wire Line
+	3000 1700 3000 2750
+Wire Wire Line
+	3000 2400 3100 2400
+Wire Wire Line
+	3100 2100 3000 2100
+Connection ~ 3000 2100
+Connection ~ 3000 2400
+Wire Wire Line
+	3000 3150 3000 4200
+Wire Wire Line
+	3000 4100 3100 4100
+Wire Wire Line
+	3100 4000 3000 4000
+Connection ~ 3000 4000
+Connection ~ 3000 4100
 $Comp
 L GND #PWR02
 U 1 1 5778056B
@@ -116,6 +140,7 @@ F 3 "" H 2400 3550 30  0000 C CNN
 	1    2400 3550
 	-1   0    0    1   
 $EndComp
+Connection ~ 3000 1800
 $Comp
 L +5V #PWR03
 U 1 1 577806DA
@@ -164,6 +189,21 @@ F 3 "" H 7200 3350 60  0000 C CNN
 	1    7200 3350
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	7600 3050 7600 3000
+Wire Wire Line
+	7600 3000 7200 3000
+Wire Wire Line
+	7200 3000 7200 3150
+Wire Wire Line
+	7200 3550 7200 3700
+Wire Wire Line
+	7200 3700 7600 3700
+Wire Wire Line
+	7600 3700 7600 3650
+Wire Wire Line
+	7400 2950 7400 3000
+Connection ~ 7400 3000
 $Comp
 L MOSFET_N Q1
 U 1 1 57780CF4
@@ -175,6 +215,9 @@ F 3 "" H 7300 3950 60  0000 C CNN
 	1    7300 3950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 3750 7400 3700
+Connection ~ 7400 3700
 $Comp
 L GND #PWR06
 U 1 1 57780DF3
@@ -208,6 +251,14 @@ F 3 "" H 6700 4100 30  0000 C CNN
 	1    6700 4100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6700 4250 7400 4250
+Wire Wire Line
+	7400 4150 7400 4400
+Connection ~ 7400 4250
+Wire Wire Line
+	6550 3950 6800 3950
+Connection ~ 6700 3950
 Text Label 6550 3950 2    60   ~ 0
 RELAY
 Text Label 5000 1800 0    60   ~ 0
@@ -334,92 +385,6 @@ F 1 "OMRON_G6E" V 8295 3355 40  0000 C CNN
 F 2 "Relays_ThroughHole:Relay_SPDS_OMRON-G6E" H 7800 3350 60  0001 C CNN
 F 3 "" H 7800 3350 60  0000 C CNN
 	1    7800 3350
-	1    0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 P4
-U 1 1 57A2FC09
-P 9050 2950
-F 0 "P4" H 9050 3100 50  0000 C CNN
-F 1 "CONN_01X02" V 9150 2950 50  0000 C CNN
-F 2 "Connect:bornier2" H 9050 2950 50  0001 C CNN
-F 3 "" H 9050 2950 50  0000 C CNN
-	1    9050 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X02 P5
-U 1 1 57A2FC5F
-P 9050 3950
-F 0 "P5" H 9050 4100 50  0000 C CNN
-F 1 "CONN_01X02" V 9150 3950 50  0000 C CNN
-F 2 "Connect:bornier2" H 9050 3950 50  0001 C CNN
-F 3 "" H 9050 3950 50  0000 C CNN
-	1    9050 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 2350 2600 2950
-Wire Wire Line
-	2600 2650 2700 2650
-Connection ~ 2600 2650
-Wire Wire Line
-	3100 1800 3000 1800
-Wire Wire Line
-	3000 1700 3000 2750
-Wire Wire Line
-	3000 2400 3100 2400
-Wire Wire Line
-	3100 2100 3000 2100
-Connection ~ 3000 2100
-Connection ~ 3000 2400
-Wire Wire Line
-	3000 3150 3000 4200
-Wire Wire Line
-	3000 4100 3100 4100
-Wire Wire Line
-	3100 4000 3000 4000
-Connection ~ 3000 4000
-Connection ~ 3000 4100
-Connection ~ 3000 1800
-Wire Wire Line
-	7600 3050 7600 3000
-Wire Wire Line
-	7600 3000 7200 3000
-Wire Wire Line
-	7200 3000 7200 3150
-Wire Wire Line
-	7200 3550 7200 3700
-Wire Wire Line
-	7200 3700 7600 3700
-Wire Wire Line
-	7600 3700 7600 3650
-Wire Wire Line
-	7400 2950 7400 3000
-Connection ~ 7400 3000
-Wire Wire Line
-	7400 3750 7400 3700
-Connection ~ 7400 3700
-Wire Wire Line
-	6700 4250 7400 4250
-Wire Wire Line
-	7400 4150 7400 4400
-Connection ~ 7400 4250
-Wire Wire Line
-	6550 3950 6800 3950
-Connection ~ 6700 3950
-Wire Wire Line
-	8050 3050 8050 2900
-Wire Wire Line
-	8050 2900 8850 2900
-Wire Wire Line
-	8850 3000 8700 3000
-Wire Wire Line
-	8700 3000 8700 4000
-Wire Wire Line
-	8700 4000 8850 4000
-Wire Wire Line
-	8850 3900 8150 3900
-Wire Wire Line
-	8150 3900 8150 3650
 $EndSCHEMATC
