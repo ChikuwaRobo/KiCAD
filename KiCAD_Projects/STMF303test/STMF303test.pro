@@ -1,4 +1,4 @@
-update=2016/08/07 0:22:20
+update=2016/08/05 18:51:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -32,7 +32,6 @@ LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
 LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
 LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
 LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName6=atmel
-LibName7=opto
+LibName6=stm32
 [general]
 version=1
