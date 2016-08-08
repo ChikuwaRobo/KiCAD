@@ -25,7 +25,7 @@ U 1 1 57995E34
 P 2800 2900
 F 0 "P1" H 2800 3300 50  0000 C CNN
 F 1 "CONN_01X07" V 2900 2900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x07" H 2800 2900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 2800 2900 50  0001 C CNN
 F 3 "" H 2800 2900 50  0000 C CNN
 	1    2800 2900
 	-1   0    0    1   
@@ -304,4 +304,60 @@ F 3 "" H 3800 4100 60  0000 C CNN
 	1    3800 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X03 P8
+U 1 1 57A634FF
+P 2800 2100
+F 0 "P8" H 2800 2300 50  0000 C CNN
+F 1 "CONN_01X03" V 2900 2100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 2800 2100 50  0001 C CNN
+F 3 "" H 2800 2100 50  0000 C CNN
+	1    2800 2100
+	-1   0    0    1   
+$EndComp
+Text Label 3000 2200 0    60   ~ 0
+LimitX
+Text Label 3000 2100 0    60   ~ 0
+LimitY
+Text Label 3000 2000 0    60   ~ 0
+LimitZ
+$Comp
+L CONN_01X05 P9
+U 1 1 57A63AC8
+P 4400 1800
+F 0 "P9" H 4400 2100 50  0000 C CNN
+F 1 "CONN_01X05" V 4500 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x05" H 4400 1800 50  0001 C CNN
+F 3 "" H 4400 1800 50  0000 C CNN
+	1    4400 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR013
+U 1 1 57A63C61
+P 4600 1900
+F 0 "#PWR013" H 4600 1990 20  0001 C CNN
+F 1 "+5V" H 4600 1990 30  0000 C CNN
+F 2 "" H 4600 1900 60  0000 C CNN
+F 3 "" H 4600 1900 60  0000 C CNN
+	1    4600 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 57A63C93
+P 4600 2000
+F 0 "#PWR014" H 4600 2000 30  0001 C CNN
+F 1 "GND" H 4600 1930 30  0001 C CNN
+F 2 "" H 4600 2000 60  0000 C CNN
+F 3 "" H 4600 2000 60  0000 C CNN
+	1    4600 2000
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 1600 0    60   ~ 0
+LimitZ
+Text Label 4600 1700 0    60   ~ 0
+LimitY
+Text Label 4600 1800 0    60   ~ 0
+LimitX
 $EndSCHEMATC
