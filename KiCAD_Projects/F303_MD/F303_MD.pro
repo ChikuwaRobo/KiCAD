@@ -1,4 +1,4 @@
-update=2016/08/10 22:19:26
+update=2016/08/11 2:05:24
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,12 +25,16 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../library
+LibDir=
 [eeschema/libraries]
-LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/74xx
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/atmel
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
+LibName7=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName8=C:/Users/hiroyuki/Documents/KiCAD/library/power
+LibName9=C:/Users/hiroyuki/Documents/KiCAD/library/opto
 [general]
 version=1
