@@ -1,0 +1,396 @@
+EESchema Schematic File Version 2
+LIBS:conn
+LIBS:device
+LIBS:power
+LIBS:regul
+LIBS:user
+LIBS:3WS_main-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X25 P1
+U 1 1 57B6E499
+P 5950 3000
+F 0 "P1" H 5950 4300 50  0000 C CNN
+F 1 "CONN_02X25" V 5950 3000 50  0000 C CNN
+F 2 "" H 5950 2250 50  0000 C CNN
+F 3 "" H 5950 2250 50  0000 C CNN
+	1    5950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X25 P2
+U 1 1 57B6E4C9
+P 7450 2950
+F 0 "P2" H 7450 4250 50  0000 C CNN
+F 1 "CONN_02X25" V 7450 2950 50  0000 C CNN
+F 2 "" H 7450 2200 50  0000 C CNN
+F 3 "" H 7450 2200 50  0000 C CNN
+	1    7450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E5F9
+P 5700 1800
+F 0 "#PWR?" H 5700 1800 30  0001 C CNN
+F 1 "GND" H 5700 1730 30  0001 C CNN
+F 2 "" H 5700 1800 60  0001 C CNN
+F 3 "" H 5700 1800 60  0001 C CNN
+	1    5700 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E631
+P 5700 2000
+F 0 "#PWR?" H 5700 2000 30  0001 C CNN
+F 1 "GND" H 5700 1930 30  0001 C CNN
+F 2 "" H 5700 2000 60  0001 C CNN
+F 3 "" H 5700 2000 60  0001 C CNN
+	1    5700 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E694
+P 5700 2900
+F 0 "#PWR?" H 5700 2900 30  0001 C CNN
+F 1 "GND" H 5700 2830 30  0001 C CNN
+F 2 "" H 5700 2900 60  0001 C CNN
+F 3 "" H 5700 2900 60  0001 C CNN
+	1    5700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E719
+P 5700 4200
+F 0 "#PWR?" H 5700 4200 30  0001 C CNN
+F 1 "GND" H 5700 4130 30  0001 C CNN
+F 2 "" H 5700 4200 60  0001 C CNN
+F 3 "" H 5700 4200 60  0001 C CNN
+	1    5700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E762
+P 6200 4200
+F 0 "#PWR?" H 6200 4200 30  0001 C CNN
+F 1 "GND" H 6200 4130 30  0001 C CNN
+F 2 "" H 6200 4200 60  0001 C CNN
+F 3 "" H 6200 4200 60  0001 C CNN
+	1    6200 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 57B6E79D
+P 6200 1900
+F 0 "#PWR?" H 6200 2000 30  0001 C CNN
+F 1 "VDD" H 6200 2010 30  0000 C CNN
+F 2 "" H 6200 1900 60  0001 C CNN
+F 3 "" H 6200 1900 60  0001 C CNN
+	1    6200 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 57B6E7B5
+P 5700 1900
+F 0 "#PWR?" H 5700 2000 30  0001 C CNN
+F 1 "VDD" H 5700 2010 30  0000 C CNN
+F 2 "" H 5700 1900 60  0001 C CNN
+F 3 "" H 5700 1900 60  0001 C CNN
+	1    5700 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E7C6
+P 6200 1800
+F 0 "#PWR?" H 6200 1800 30  0001 C CNN
+F 1 "GND" H 6200 1730 30  0001 C CNN
+F 2 "" H 6200 1800 60  0001 C CNN
+F 3 "" H 6200 1800 60  0001 C CNN
+	1    6200 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E86F
+P 7200 1750
+F 0 "#PWR?" H 7200 1750 30  0001 C CNN
+F 1 "GND" H 7200 1680 30  0001 C CNN
+F 2 "" H 7200 1750 60  0001 C CNN
+F 3 "" H 7200 1750 60  0001 C CNN
+	1    7200 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E897
+P 7700 1750
+F 0 "#PWR?" H 7700 1750 30  0001 C CNN
+F 1 "GND" H 7700 1680 30  0001 C CNN
+F 2 "" H 7700 1750 60  0001 C CNN
+F 3 "" H 7700 1750 60  0001 C CNN
+	1    7700 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E8A8
+P 7700 4150
+F 0 "#PWR?" H 7700 4150 30  0001 C CNN
+F 1 "GND" H 7700 4080 30  0001 C CNN
+F 2 "" H 7700 4150 60  0001 C CNN
+F 3 "" H 7700 4150 60  0001 C CNN
+	1    7700 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B6E90B
+P 7200 4150
+F 0 "#PWR?" H 7200 4150 30  0001 C CNN
+F 1 "GND" H 7200 4080 30  0001 C CNN
+F 2 "" H 7200 4150 60  0001 C CNN
+F 3 "" H 7200 4150 60  0001 C CNN
+	1    7200 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 57B6E974
+P 7700 2750
+F 0 "#PWR?" H 7700 2850 30  0001 C CNN
+F 1 "VDD" H 7700 2860 30  0000 C CNN
+F 2 "" H 7700 2750 60  0001 C CNN
+F 3 "" H 7700 2750 60  0001 C CNN
+	1    7700 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 57B6E9FC
+P 7700 1950
+F 0 "#PWR?" H 7700 1910 30  0001 C CNN
+F 1 "+3.3V" H 7700 2060 30  0000 C CNN
+F 2 "" H 7700 1950 60  0001 C CNN
+F 3 "" H 7700 1950 60  0001 C CNN
+	1    7700 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 57B6EA14
+P 7200 1950
+F 0 "#PWR?" H 7200 1910 30  0001 C CNN
+F 1 "+3.3V" H 7200 2060 30  0000 C CNN
+F 2 "" H 7200 1950 60  0001 C CNN
+F 3 "" H 7200 1950 60  0001 C CNN
+	1    7200 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 57B6EA25
+P 7700 1850
+F 0 "#PWR?" H 7700 1940 20  0001 C CNN
+F 1 "+5V" H 7700 1940 30  0000 C CNN
+F 2 "" H 7700 1850 60  0001 C CNN
+F 3 "" H 7700 1850 60  0001 C CNN
+	1    7700 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 57B6EA3D
+P 7200 1850
+F 0 "#PWR?" H 7200 1940 20  0001 C CNN
+F 1 "+5V" H 7200 1940 30  0000 C CNN
+F 2 "" H 7200 1850 60  0001 C CNN
+F 3 "" H 7200 1850 60  0001 C CNN
+	1    7200 1850
+	0    -1   -1   0   
+$EndComp
+Text Label 7200 2050 2    60   ~ 0
+PH0
+Text Label 7200 2150 2    60   ~ 0
+PC14
+Text Label 7200 2250 2    60   ~ 0
+PE6
+Text Label 7200 2350 2    60   ~ 0
+PE4
+Text Label 7200 2450 2    60   ~ 0
+PE2
+Text Label 7200 2550 2    60   ~ 0
+PE0
+Text Label 7200 2650 2    60   ~ 0
+PB8
+Text Label 7200 2750 2    60   ~ 0
+BOOT0
+Text Label 7200 2850 2    60   ~ 0
+PB6
+Text Label 7200 2950 2    60   ~ 0
+PB4
+Text Label 7200 3050 2    60   ~ 0
+PD7
+Text Label 7200 3150 2    60   ~ 0
+PD5
+Text Label 7200 3250 2    60   ~ 0
+PD3
+Text Label 7200 3350 2    60   ~ 0
+PD1
+Text Label 7200 3450 2    60   ~ 0
+PC12
+Text Label 7200 3550 2    60   ~ 0
+PC10
+Text Label 7200 3650 2    60   ~ 0
+PA14
+Text Label 7200 3750 2    60   ~ 0
+PA10
+Text Label 7200 3850 2    60   ~ 0
+PA8
+Text Label 7200 3950 2    60   ~ 0
+PC8
+Text Label 7200 4050 2    60   ~ 0
+PC6
+Text Label 7700 4050 0    60   ~ 0
+PC7
+Text Label 7700 3950 0    60   ~ 0
+PC9
+Text Label 7700 3850 0    60   ~ 0
+PA9
+Text Label 7700 3750 0    60   ~ 0
+PA13
+Text Label 7700 3450 0    60   ~ 0
+PD0
+Text Label 7700 3350 0    60   ~ 0
+PD2
+Text Label 7700 3250 0    60   ~ 0
+PD4
+Text Label 7700 3150 0    60   ~ 0
+PD6
+Text Label 7700 3050 0    60   ~ 0
+PB3
+Text Label 7700 2950 0    60   ~ 0
+PB5
+Text Label 7700 2850 0    60   ~ 0
+PB7
+Text Label 7700 3650 0    60   ~ 0
+PA15
+Text Label 7700 3550 0    60   ~ 0
+PC11
+Text Label 7700 2650 0    60   ~ 0
+PB9
+Text Label 7700 2550 0    60   ~ 0
+PE1
+Text Label 7700 2450 0    60   ~ 0
+PE3
+Text Label 7700 2350 0    60   ~ 0
+PE5
+Text Label 7700 2250 0    60   ~ 0
+PC13
+Text Label 7700 2150 0    60   ~ 0
+PC15
+Text Label 7700 2050 0    60   ~ 0
+PH1
+Text Label 6200 2100 0    60   ~ 0
+PC0
+Text Label 6200 2200 0    60   ~ 0
+PC2
+Text Label 6200 2300 0    60   ~ 0
+PA0
+Text Label 6200 2500 0    60   ~ 0
+PA4
+Text Label 6200 2400 0    60   ~ 0
+PA2
+Text Label 6200 2600 0    60   ~ 0
+PA6
+Text Label 6200 2700 0    60   ~ 0
+PC4
+Text Label 6200 2800 0    60   ~ 0
+PB0
+Text Label 6200 2000 0    60   ~ 0
+NRST
+Text Label 6200 2900 0    60   ~ 0
+PB2
+Text Label 6200 3000 0    60   ~ 0
+PE8
+Text Label 6200 3100 0    60   ~ 0
+PE10
+Text Label 6200 3200 0    60   ~ 0
+PE12
+Text Label 6200 3300 0    60   ~ 0
+PE14
+Text Label 6200 3400 0    60   ~ 0
+PB10
+Text Label 6200 3500 0    60   ~ 0
+PB12
+Text Label 6200 3600 0    60   ~ 0
+PB14
+Text Label 6200 3700 0    60   ~ 0
+PD8
+Text Label 6200 3800 0    60   ~ 0
+PD10
+Text Label 6200 3900 0    60   ~ 0
+PD12
+Text Label 6200 4000 0    60   ~ 0
+PD14
+NoConn ~ 6200 4100
+Text Label 5700 2100 2    60   ~ 0
+PC1
+Text Label 5700 2200 2    60   ~ 0
+PC3
+Text Label 5700 2300 2    60   ~ 0
+PA1
+Text Label 5700 2400 2    60   ~ 0
+PA3
+Text Label 5700 2500 2    60   ~ 0
+PA5
+Text Label 5700 2600 2    60   ~ 0
+PA7
+Text Label 5700 2700 2    60   ~ 0
+PC5
+Text Label 5700 2800 2    60   ~ 0
+PB1
+Text Label 5700 3000 2    60   ~ 0
+PE7
+Text Label 5700 3100 2    60   ~ 0
+PE9
+Text Label 5700 3200 2    60   ~ 0
+PE11
+Text Label 5700 3300 2    60   ~ 0
+PE13
+Text Label 5700 3400 2    60   ~ 0
+PE15
+Text Label 5700 3500 2    60   ~ 0
+PB11
+Text Label 5700 3600 2    60   ~ 0
+PB13
+Text Label 5700 3700 2    60   ~ 0
+PB15
+Text Label 5700 3800 2    60   ~ 0
+PD9
+Text Label 5700 3900 2    60   ~ 0
+PD11
+Text Label 5700 4000 2    60   ~ 0
+PD13
+Text Label 5700 4100 2    60   ~ 0
+PD15
+$EndSCHEMATC
