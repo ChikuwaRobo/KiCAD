@@ -1,4 +1,4 @@
-update=2016/08/24 14:21:55
+update=2016/08/04 17:40:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,8 +29,9 @@ LibDir=../../library
 [eeschema/libraries]
 LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
 LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
 LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName6=power
 [general]
 version=1

@@ -1,4 +1,4 @@
-update=2016/06/29 21:44:32
+update=2016/08/26 1:00:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,11 +27,13 @@ NetIExt=net
 version=1
 LibDir=../../library
 [eeschema/libraries]
-LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName6=power
+LibName1=3WS_MD-rescue
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
+LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName7=power
+LibName8=relays
 [general]
 version=1
