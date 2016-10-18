@@ -1,4 +1,4 @@
-update=2016/08/18 2:20:06
+update=2016/09/14 23:35:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,10 +27,11 @@ NetIExt=net
 version=1
 LibDir=../../library
 [eeschema/libraries]
-LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName1=SI8234_test-rescue
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/power
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/user
 [general]
 version=1

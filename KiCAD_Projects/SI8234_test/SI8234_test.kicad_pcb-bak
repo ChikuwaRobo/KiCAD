@@ -3,7 +3,7 @@
   (general
     (links 148)
     (no_connects 43)
-    (area 0 0 0 0)
+    (area -9.3694 2.425 124.460001 76.153333)
     (thickness 1.6)
     (drawings 0)
     (tracks 220)
@@ -378,7 +378,7 @@
   )
 
   (module RP_KiCAD_Libs:C2012 (layer B.Cu) (tedit 0) (tstamp 57771976)
-    (at 25.4 67.31 180)
+    (at 27.305 66.04 180)
     (descr <b>CAPACITOR</b>)
     (path /57775AA5)
     (fp_text reference C1 (at -1.27 1.27 180) (layer B.SilkS)

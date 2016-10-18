@@ -1,4 +1,4 @@
-update=2016/08/12 20:09:21
+update=2016/09/24 10:56:29
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,18 +23,19 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/74xx
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/atmel
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
-LibName7=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName8=C:/Users/hiroyuki/Documents/KiCAD/library/power
-LibName9=C:/Users/hiroyuki/Documents/KiCAD/library/opto
-[general]
-version=1
+LibName1=F303_SI8234-rescue
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/74xx
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/atmel
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName7=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
+LibName8=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName9=C:/Users/hiroyuki/Documents/KiCAD/library/power
+LibName10=C:/Users/hiroyuki/Documents/KiCAD/library/opto
