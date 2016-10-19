@@ -1,4 +1,4 @@
-update=2016/10/19 16:25:18
+update=2016/10/19 19:31:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -37,3 +35,5 @@ LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
 LibName6=power
 LibName7=relays
 LibName8=logo
+[general]
+version=1
