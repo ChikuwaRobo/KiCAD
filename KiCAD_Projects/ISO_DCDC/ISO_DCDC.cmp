@@ -1,0 +1,571 @@
+Cmp-Mod V01 Created by PcbNew   date = 2016/10/18 22:08:35
+
+BeginCmp
+TimeStamp = 57FCAE45
+Path = /57FDEB1C
+Reference = U1;
+ValeurCmp = V23076-D3001-D142;
+IdModule  = Relays_ThroughHole:V23076-A3001-D142;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB026
+Path = /57CF9D53
+Reference = DCDC2;
+ValeurCmp = MGS15;
+IdModule  = Converters_DCDC_ACDC:MGS15;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB11F
+Path = /57DC060C
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = TO_SOT_Packages_SMD:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB1B3
+Path = /57CFAB0E
+Reference = U3;
+ValeurCmp = V23076-D3001-D142;
+IdModule  = Relays_ThroughHole:V23076-A3001-D142;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB086
+Path = /57CFF4A3
+Reference = P4;
+ValeurCmp = CONN_01X02;
+IdModule  = RP_KiCAD_Connector:XA_2LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCAFAD
+Path = /57D09215
+Reference = C4;
+ValeurCmp = 4.7u;
+IdModule  = RP_KiCAD_Libs:C3216;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCAFB3
+Path = /57D046F4
+Reference = C5;
+ValeurCmp = 0.1u;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCAFBF
+Path = /57CFF505
+Reference = C7;
+ValeurCmp = 1000u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D10_L20_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCAFD7
+Path = /57CFCFA2
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCAFE9
+Path = /57CFB84C
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCAFEF
+Path = /57CFB6E8
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB001
+Path = /57D91ADF
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB007
+Path = /57D9739F
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB00D
+Path = /57FDEB4E
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB013
+Path = /57FEDBB6
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB01C
+Path = /57CFEEC0
+Reference = DCDC1;
+ValeurCmp = SI-8008HFE;
+IdModule  = TO_SOT_Packages_THT:Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB030
+Path = /57D3CDC6
+Reference = DCDC3;
+ValeurCmp = MGS15;
+IdModule  = Converters_DCDC_ACDC:MGS15;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB075
+Path = /57FE580E
+Reference = P1;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB08D
+Path = /57CFF430
+Reference = P5;
+ValeurCmp = CONN_01X02;
+IdModule  = RP_KiCAD_Connector:XA_2LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB0A4
+Path = /57FE6796
+Reference = P8;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB0E3
+Path = /57DA53F6
+Reference = P19;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB0E8
+Path = /57DA5871
+Reference = P20;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB0EE
+Path = /57DBF6F3
+Reference = P21;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB0F3
+Path = /57FE4D21
+Reference = P22;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB0F8
+Path = /57FE4F2C
+Reference = P23;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB102
+Path = /57FE3DD0
+Reference = P25;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB107
+Path = /57FE40CB
+Reference = P26;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB125
+Path = /57CFCFA8
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB12B
+Path = /57D737B9
+Reference = R2;
+ValeurCmp = 8.2;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB143
+Path = /57D276BA
+Reference = R6;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB149
+Path = /57CFC012
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB14F
+Path = /57CFC051
+Reference = R8;
+ValeurCmp = 4.7k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB155
+Path = /57DBDDAA
+Reference = R9;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB161
+Path = /57DC0A0C
+Reference = R11;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB167
+Path = /57D73CF6
+Reference = R12;
+ValeurCmp = 8.2;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB185
+Path = /57D91AE5
+Reference = R17;
+ValeurCmp = 2.2k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB18B
+Path = /57D973A5
+Reference = R18;
+ValeurCmp = 2.2k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB191
+Path = /57DC0B9F
+Reference = R19;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB197
+Path = /57FDEB54
+Reference = R20;
+ValeurCmp = 2.2k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB19D
+Path = /57FD67BA
+Reference = R21;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB1A3
+Path = /57FD8342
+Reference = R22;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCB1A9
+Path = /57FEDBBD
+Reference = R23;
+ValeurCmp = 1k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCDC4C
+Path = /57D00CB5
+Reference = R3;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:0204_2f7;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCDC51
+Path = /57D00BD1
+Reference = R4;
+ValeurCmp = R;
+IdModule  = RP_KiCAD_Libs:0204_2f7;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FDB191
+Path = /57DBDDA4
+Reference = IC1;
+ValeurCmp = PC817;
+IdModule  = Opto-Devices:Optocoupler_SMD_HandSoldering_KPC357_LTV35x_PC357_SingleChannel;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FDB198
+Path = /57D26DC4
+Reference = IC2;
+ValeurCmp = PC817;
+IdModule  = Opto-Devices:Optocoupler_SMD_HandSoldering_KPC357_LTV35x_PC357_SingleChannel;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FDB19F
+Path = /57FD301D
+Reference = IC3;
+ValeurCmp = PC817;
+IdModule  = Opto-Devices:Optocoupler_SMD_HandSoldering_KPC357_LTV35x_PC357_SingleChannel;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FDB1A6
+Path = /57FD4457
+Reference = IC4;
+ValeurCmp = PC817;
+IdModule  = Opto-Devices:Optocoupler_SMD_HandSoldering_KPC357_LTV35x_PC357_SingleChannel;
+EndCmp
+
+BeginCmp
+TimeStamp = 580469EF
+Path = /57FCF086
+Reference = C1;
+ValeurCmp = 1000u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 580469F4
+Path = /57D43822
+Reference = C9;
+ValeurCmp = 1000u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 580469F9
+Path = /57D438CB
+Reference = C10;
+ValeurCmp = 1000u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 58046B0F
+Path = /57CFF427
+Reference = C3;
+ValeurCmp = 1000u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D10_L20_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = 58046B14
+Path = /57D48AFF
+Reference = C6;
+ValeurCmp = 1000u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D10_L20_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5804763A
+Path = /57D345E4
+Reference = P6;
+ValeurCmp = CONN_01X04;
+IdModule  = RP_KiCAD_Connector:XA_4T;
+EndCmp
+
+BeginCmp
+TimeStamp = 58047641
+Path = /57D34671
+Reference = P7;
+ValeurCmp = CONN_01X04;
+IdModule  = RP_KiCAD_Connector:XA_4T;
+EndCmp
+
+BeginCmp
+TimeStamp = 58047648
+Path = /57D5FC5F
+Reference = P10;
+ValeurCmp = CONN_01X02;
+IdModule  = RP_KiCAD_Connector:XA_2T;
+EndCmp
+
+BeginCmp
+TimeStamp = 5804764D
+Path = /57D60784
+Reference = P11;
+ValeurCmp = CONN_01X02;
+IdModule  = RP_KiCAD_Connector:XA_2T;
+EndCmp
+
+BeginCmp
+TimeStamp = 58050DE9
+Path = /57CFF39C
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F80B
+Path = /5806E0F1
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F80C
+Path = /58067864
+Reference = DCDC4;
+ValeurCmp = MGS15;
+IdModule  = RP_KiCAD_Libs:MGS30;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F81D
+Path = /5806E107
+Reference = P2;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F822
+Path = /5806E10D
+Reference = P3;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F827
+Path = /58075343
+Reference = P9;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F828
+Path = /58075349
+Reference = P12;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F831
+Path = /5806E0F7
+Reference = R5;
+ValeurCmp = 2.2k;
+IdModule  = RP_KiCAD_Libs:C1608_WP;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805F83B
+Path = /5806E0D8
+Reference = U2;
+ValeurCmp = V23076-D3001-D142;
+IdModule  = Relays_ThroughHole:V23076-A3001-D142;
+EndCmp
+
+BeginCmp
+TimeStamp = 5805FE62
+Path = /57CFF127
+Reference = L1;
+ValeurCmp = 100uH 9A;
+IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_horizontal_Diameter26mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5806035E
+Path = /57D480C4
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-201AD_Horizontal_RM15;
+EndCmp
+
+BeginCmp
+TimeStamp = 58060536
+Path = /58078414
+Reference = IC5;
+ValeurCmp = PC817;
+IdModule  = Opto-Devices:Optocoupler_SMD_HandSoldering_KPC357_LTV35x_PC357_SingleChannel;
+EndCmp
+
+BeginCmp
+TimeStamp = 5806053F
+Path = /5807D231
+Reference = P13;
+ValeurCmp = CONN_01X04;
+IdModule  = RP_KiCAD_Connector:XA_4LC;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FCC9DD
+Path = /57FFFD34
+Reference = P30;
+ValeurCmp = CONN_01X01;
+IdModule  = Heatsinks:16PB017_16.25.16;
+EndCmp
+
+EndListe
