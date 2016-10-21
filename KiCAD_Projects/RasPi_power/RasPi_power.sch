@@ -1,34 +1,10 @@
 EESchema Schematic File Version 2
-LIBS:RasPi_power-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
 LIBS:conn
-LIBS:linear
+LIBS:device
+LIBS:power
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:user
+LIBS:dc-dc
 LIBS:RasPi_power-cache
 EELAYER 25 0
 EELAYER END
@@ -36,7 +12,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 nov 2012"
+Date ""
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,133 +21,259 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_13X2 P1
-U 1 1 50A55ABA
-P 2400 1800
-F 0 "P1" H 2400 2500 60  0000 C CNN
-F 1 "CONN_13X2" V 2400 1800 50  0000 C CNN
-F 2 "" H 2400 1800 60  0001 C CNN
-F 3 "" H 2400 1800 60  0001 C CNN
-	1    2400 1800
-	1    0    0    -1  
+L CONN_02X20 P?
+U 1 1 58089F36
+P 2600 2050
+F 0 "P?" H 2600 3100 50  0000 C CNN
+F 1 "CONN_02X20" V 2600 2050 50  0000 C CNN
+F 2 "" H 2600 1100 50  0000 C CNN
+F 3 "" H 2600 1100 50  0000 C CNN
+	1    2600 2050
+	0    -1   -1   0   
 $EndComp
-$Comp
-L +3.3V-RESCUE-RasPi_power #PWR01
-U 1 1 50A55B18
-P 1900 1050
-F 0 "#PWR01" H 1900 1010 30  0001 C CNN
-F 1 "+3.3V" H 1900 1160 30  0000 C CNN
-F 2 "" H 1900 1050 60  0001 C CNN
-F 3 "" H 1900 1050 60  0001 C CNN
-	1    1900 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 1050 1900 1200
-Wire Wire Line
-	1900 1200 2000 1200
-$Comp
-L +5V #PWR02
-U 1 1 50A55B2E
-P 2900 1050
-F 0 "#PWR02" H 2900 1140 20  0001 C CNN
-F 1 "+5V" H 2900 1140 30  0000 C CNN
-F 2 "" H 2900 1050 60  0001 C CNN
-F 3 "" H 2900 1050 60  0001 C CNN
-	1    2900 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 1050 2900 1200
-Wire Wire Line
-	2900 1200 2800 1200
-NoConn ~ 2800 1300
-Wire Wire Line
-	2000 1300 1250 1300
-Wire Wire Line
-	2000 1400 1250 1400
-Text Label 1250 1300 0    60   ~ 0
-GPIO0(SDA)
-Text Label 1250 1400 0    60   ~ 0
-GPIO1(SCL)
-Wire Wire Line
-	2000 1500 1250 1500
-Text Label 1250 1500 0    60   ~ 0
+Text Label 1650 1800 1    60   ~ 0
+5V
+Text Label 1750 1800 1    60   ~ 0
+5V
+Text Label 1650 2300 3    60   ~ 0
+3.3V
+Text Label 1750 2300 3    60   ~ 0
+GPIO2
+Text Label 1850 2300 3    60   ~ 0
+GPIO3
+Text Label 1850 1800 1    60   ~ 0
+GND
+Text Label 1950 1800 1    60   ~ 0
+GPIO14
+Text Label 2050 1800 1    60   ~ 0
+GPIO15
+Text Label 1950 2300 3    60   ~ 0
 GPIO4
-NoConn ~ 2000 1600
-Wire Wire Line
-	2000 1700 1250 1700
-Wire Wire Line
-	2000 1800 1250 1800
-Wire Wire Line
-	2000 1900 1250 1900
-Text Label 1250 1700 0    60   ~ 0
+Text Label 2050 2300 3    60   ~ 0
+GND
+Text Label 2150 2300 3    60   ~ 0
 GPIO17
-Text Label 1250 1800 0    60   ~ 0
-GPIO21
-Text Label 1250 1900 0    60   ~ 0
+Text Label 2250 2300 3    60   ~ 0
+GPIO27
+Text Label 2150 1800 1    60   ~ 0
+GPIO18
+Text Label 2250 1800 1    60   ~ 0
+GND
+Text Label 2350 1800 1    60   ~ 0
+GPIO23
+Text Label 2450 1800 1    60   ~ 0
+GPIO24
+Text Label 2550 1800 1    60   ~ 0
+GND
+Text Label 2650 1800 1    60   ~ 0
+GPIO25
+Text Label 2750 1800 1    60   ~ 0
+GPIO8
+Text Label 2850 1800 1    60   ~ 0
+GPIO7
+Text Label 2450 2300 3    60   ~ 0
+3.3V
+Text Label 2350 2300 3    60   ~ 0
 GPIO22
-NoConn ~ 2000 2000
-Wire Wire Line
-	2000 2100 1250 2100
-Wire Wire Line
-	2000 2200 1250 2200
-Wire Wire Line
-	2000 2300 1250 2300
-Text Label 1250 2100 0    60   ~ 0
-GPIO10(MOSI)
-Text Label 1250 2200 0    60   ~ 0
-GPIO9(MISO)
-Text Label 1250 2300 0    60   ~ 0
-GPIO11(SCLK)
-NoConn ~ 2000 2400
+Text Label 2550 2300 3    60   ~ 0
+GPIO10
+Text Label 2650 2300 3    60   ~ 0
+GPIO9
+Text Label 2750 2300 3    60   ~ 0
+GPIO11
+Text Label 2850 2300 3    60   ~ 0
+GND
+Text Label 2950 1800 1    60   ~ 0
+ID_SC
+Text Label 2950 2300 3    60   ~ 0
+ID_SD
+Text Label 3050 1800 1    60   ~ 0
+GND
+Text Label 3150 1800 1    60   ~ 0
+GPIO12
+Text Label 3250 1800 1    60   ~ 0
+GND
+Text Label 3350 1800 1    60   ~ 0
+GPIO16
+Text Label 3450 1800 1    60   ~ 0
+GPIO20
+Text Label 3550 1800 1    60   ~ 0
+GPOI21
+Text Label 3050 2300 3    60   ~ 0
+GPIO5
+Text Label 3250 2300 3    60   ~ 0
+GPIO13
+Text Label 3150 2300 3    60   ~ 0
+GPIO6
+Text Label 3350 2300 3    60   ~ 0
+GPIO19
+Text Label 3450 2300 3    60   ~ 0
+GPIO26
+Text Label 3550 2300 3    60   ~ 0
+GND
 $Comp
-L GND-RESCUE-RasPi_power #PWR03
-U 1 1 50A55C3F
-P 2900 2500
-F 0 "#PWR03" H 2900 2500 30  0001 C CNN
-F 1 "GND" H 2900 2430 30  0001 C CNN
-F 2 "" H 2900 2500 60  0001 C CNN
-F 3 "" H 2900 2500 60  0001 C CNN
-	1    2900 2500
+L OKL-T3_series DC-DC?
+U 1 1 5808A8D6
+P 2600 5250
+F 0 "DC-DC?" H 2600 5050 60  0000 C CNN
+F 1 "OKL-T3_series" H 2600 5400 60  0000 C CNN
+F 2 "" H 2600 5250 60  0001 C CNN
+F 3 "" H 2600 5250 60  0001 C CNN
+	1    2600 5250
+	1    0    0    -1  
+$EndComp
+Text Label 1850 4400 2    60   ~ 0
+12V
+Text Label 2850 4500 0    60   ~ 0
+GND
+Text Label 1600 5400 3    60   ~ 0
+GND
+NoConn ~ 2750 5900
+NoConn ~ 2450 5900
+NoConn ~ 3250 5400
+Text Label 4100 5250 0    60   ~ 0
+5V
+NoConn ~ 1950 5550
+NoConn ~ 1950 5400
+$Comp
+L R R?
+U 1 1 5808AB36
+P 1850 5100
+F 0 "R?" V 1930 5100 40  0000 C CNN
+F 1 "R" V 1857 5101 40  0000 C CNN
+F 2 "" V 1780 5100 30  0000 C CNN
+F 3 "" H 1850 5100 30  0000 C CNN
+	1    1850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5808AB70
+P 3350 5700
+F 0 "R?" V 3430 5700 40  0000 C CNN
+F 1 "1.3k" V 3357 5701 40  0000 C CNN
+F 2 "" V 3280 5700 30  0000 C CNN
+F 3 "" H 3350 5700 30  0000 C CNN
+	1    3350 5700
+	1    0    0    -1  
+$EndComp
+Text Label 3700 5950 3    60   ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5808ADEC
+P 4000 5450
+F 0 "R?" V 4080 5450 40  0000 C CNN
+F 1 "1k" V 4007 5451 40  0000 C CNN
+F 2 "" V 3930 5450 30  0000 C CNN
+F 3 "" H 4000 5450 30  0000 C CNN
+	1    4000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5808AECF
+P 3700 5450
+F 0 "C?" H 3700 5550 40  0000 L CNN
+F 1 "C" H 3706 5365 40  0000 L CNN
+F 2 "" H 3738 5300 30  0000 C CNN
+F 3 "" H 3700 5450 60  0000 C CNN
+	1    3700 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2500 2900 1400
+	1600 4950 1950 4950
 Wire Wire Line
-	2900 1400 2800 1400
+	1850 4400 1850 4950
 Wire Wire Line
-	2800 1500 3500 1500
+	1850 4500 2450 4500
 Wire Wire Line
-	2800 1600 3500 1600
-Text Label 3500 1500 2    60   ~ 0
-TXD
-Text Label 3500 1600 2    60   ~ 0
-RXD
+	2450 4500 2450 4600
+Connection ~ 1850 4500
 Wire Wire Line
-	2800 1700 3500 1700
-Text Label 3500 1700 2    60   ~ 0
-GPIO18
-NoConn ~ 2800 1800
+	2600 4600 2600 4500
 Wire Wire Line
-	2800 1900 3500 1900
+	2600 4500 2850 4500
 Wire Wire Line
-	2800 2000 3500 2000
-Text Label 3500 1900 2    60   ~ 0
-GPIO23
-Text Label 3500 2000 2    60   ~ 0
-GPIO24
-NoConn ~ 2800 2100
+	2750 4500 2750 4600
 Wire Wire Line
-	2800 2200 3500 2200
-Text Label 3500 2200 2    60   ~ 0
-GPIO25
+	2600 5900 2600 6000
+Connection ~ 2750 4500
 Wire Wire Line
-	2800 2300 3500 2300
+	1950 5250 1850 5250
+Connection ~ 1850 4950
 Wire Wire Line
-	2800 2400 3500 2400
-Text Label 3500 2300 2    60   ~ 0
-GPIO8(CE0)
-Text Label 3500 2400 2    60   ~ 0
-GPIO7(CE1)
+	3250 5550 3350 5550
+Wire Wire Line
+	3250 4950 3400 4950
+Wire Wire Line
+	3400 4950 3400 5250
+Wire Wire Line
+	3250 5250 4100 5250
+Wire Wire Line
+	4000 5250 4000 5300
+Connection ~ 3400 5250
+Connection ~ 3700 5250
+Wire Wire Line
+	3700 5650 3700 5950
+Wire Wire Line
+	3350 5850 4000 5850
+Wire Wire Line
+	4000 5850 4000 5600
+Connection ~ 3700 5850
+Connection ~ 4000 5250
+$Comp
+L C C?
+U 1 1 5808B321
+P 1600 5150
+F 0 "C?" H 1600 5250 40  0000 L CNN
+F 1 "C" H 1606 5065 40  0000 L CNN
+F 2 "" H 1638 5000 30  0000 C CNN
+F 3 "" H 1600 5150 60  0000 C CNN
+	1    1600 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5350 1600 5400
+$Comp
+L CONN_01X02 P?
+U 1 1 5808B579
+P 850 4550
+F 0 "P?" H 850 4700 50  0000 C CNN
+F 1 "CONN_01X02" V 950 4550 50  0000 C CNN
+F 2 "" H 850 4550 50  0000 C CNN
+F 3 "" H 850 4550 50  0000 C CNN
+	1    850  4550
+	-1   0    0    1   
+$EndComp
+Text Label 1050 4500 0    60   ~ 0
+12V
+Text Label 1050 4600 0    60   ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5808B7AE
+P 1100 5450
+F 0 "R?" V 1180 5450 40  0000 C CNN
+F 1 "R" V 1107 5451 40  0000 C CNN
+F 2 "" V 1030 5450 30  0000 C CNN
+F 3 "" H 1100 5450 30  0000 C CNN
+	1    1100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5808B7FF
+P 1100 5100
+F 0 "D?" H 1100 5200 50  0000 C CNN
+F 1 "LED" H 1100 5000 50  0000 C CNN
+F 2 "" H 1100 5100 60  0000 C CNN
+F 3 "" H 1100 5100 60  0000 C CNN
+	1    1100 5100
+	0    1    1    0   
+$EndComp
+Text Label 1100 5600 3    60   ~ 0
+GND
+Text Label 1100 4900 2    60   ~ 0
+12V
 $EndSCHEMATC
