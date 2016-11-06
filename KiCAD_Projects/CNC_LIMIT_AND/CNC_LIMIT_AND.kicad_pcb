@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
     (links 36)
     (no_connects 0)
-    (area -2.568333 -0.075001 50.075001 40.075001)
+    (area -2.493333 -0.075001 50.075001 40.075001)
     (thickness 1.6)
     (drawings 4)
     (tracks 101)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (trace_clearance 0.2)
@@ -891,7 +891,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 50 40) (xy 0 40) (xy 0 0) (xy 50 0) (xy 50 40)
+        (xy 50 40) (xy 0 40) (xy 0 0) (xy 50 0)
       )
     )
     (filled_polygon
