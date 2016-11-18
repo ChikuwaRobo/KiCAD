@@ -1,4 +1,4 @@
-update=2016/11/06 2:00:50
+update=2016/11/18 12:22:02
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,13 +25,16 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../library
+LibDir=
 [eeschema/libraries]
-LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName6=stm32
+LibName1=Cancer_MAIN-rescue
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/power
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName7=stm32
+LibName8=relays
+LibName9=opto
 [general]
 version=1

@@ -1,4 +1,4 @@
-update=2016/10/28 20:02:42
+update=2016/11/16 22:05:09
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -36,3 +34,5 @@ LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
 LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
 LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/dc-dc
 LibName7=stm32
+[general]
+version=1
