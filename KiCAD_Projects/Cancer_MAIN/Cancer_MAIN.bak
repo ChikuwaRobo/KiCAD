@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Cancer_MAIN-rescue
 LIBS:conn
 LIBS:device
 LIBS:power
@@ -1504,7 +1505,7 @@ POWER+
 Text Label 3950 13100 2    60   ~ 0
 POWER+
 $Comp
-L TLP291 IC1
+L TLP291-RESCUE-Cancer_MAIN IC1
 U 1 1 582FE764
 P 6450 13600
 F 0 "IC1" H 6237 13778 40  0000 C CNN

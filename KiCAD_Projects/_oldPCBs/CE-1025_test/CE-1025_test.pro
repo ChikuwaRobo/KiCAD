@@ -1,4 +1,4 @@
-update=2016/09/12 13:30:42
+update=2016/11/21 16:11:04
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,14 +23,15 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../library
 [eeschema/libraries]
-LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-[general]
-version=1
+LibName1=CE-1025_test-rescue
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/power
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/regul
+LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/user

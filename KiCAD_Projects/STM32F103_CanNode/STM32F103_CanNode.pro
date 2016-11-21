@@ -1,4 +1,4 @@
-update=2016/11/09 19:08:13
+update=2016/11/21 17:19:21
 version=1
 last_client=kicad
 [pcbnew]
@@ -41,3 +41,13 @@ LibName11=transistors
 LibName12=interface
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
