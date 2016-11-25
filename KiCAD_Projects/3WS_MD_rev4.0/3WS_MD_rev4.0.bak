@@ -420,8 +420,8 @@ Text Label 5550 4300 3    60   ~ 0
 ENC_Ba
 Text Label 5650 4300 3    60   ~ 0
 ENC_Bb
-Text Label 7450 2600 0    60   ~ 0
-MOTOR_EN_A
+Text Label 7450 2800 0    60   ~ 0
+MOTOR_EN
 Text Label 11950 4850 2    60   ~ 0
 LIMIT_A1
 Text Label 11950 4950 2    60   ~ 0
@@ -478,13 +478,13 @@ F 3 "" H 14700 2400 50  0000 C CNN
 	1    14700 2400
 	1    0    0    -1  
 $EndComp
-Text Label 5750 4300 3    60   ~ 0
+Text Label 7450 3200 0    60   ~ 0
 SEL_1
-Text Label 5850 4300 3    60   ~ 0
+Text Label 7450 3100 0    60   ~ 0
 SEL_2
-Text Label 5950 4300 3    60   ~ 0
+Text Label 7450 3000 0    60   ~ 0
 SEL_4
-Text Label 6850 4600 3    60   ~ 0
+Text Label 7450 2900 0    60   ~ 0
 SEL_8
 $Comp
 L SI8234 U2
@@ -623,7 +623,7 @@ F 3 "" H 1450 7450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1550 7550 2    60   ~ 0
-MOTOR_EN_A
+MOTOR_EN
 Text Label 1550 6950 2    60   ~ 0
 PWM_A
 $Comp
@@ -776,7 +776,7 @@ F 3 "" H 1500 9350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1600 9450 2    60   ~ 0
-MOTOR_EN_A
+MOTOR_EN
 Text Label 1600 8850 2    60   ~ 0
 PWM_AN
 $Comp
@@ -929,7 +929,7 @@ F 3 "" H 6400 7450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6500 7550 2    60   ~ 0
-MOTOR_EN_B
+MOTOR_EN
 Text Label 6500 6950 2    60   ~ 0
 PWM_B
 $Comp
@@ -1082,7 +1082,7 @@ F 3 "" H 6400 9350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6500 9450 2    60   ~ 0
-MOTOR_EN_B
+MOTOR_EN
 Text Label 6500 8850 2    60   ~ 0
 PWM_BN
 $Comp
@@ -2015,7 +2015,7 @@ F 3 "" H 11000 1800 60  0000 C CNN
 	1    11000 1800
 	-1   0    0    1   
 $EndComp
-Text Label 7450 3200 0    60   ~ 0
+Text Label 5950 4300 3    60   ~ 0
 BUZZER
 $Comp
 L MOSFET_N Q9
@@ -2300,25 +2300,25 @@ $EndComp
 $Comp
 L R R35
 U 1 1 57EB8D7D
-P 7850 3600
-F 0 "R35" V 7930 3600 40  0000 C CNN
-F 1 "10k" V 7857 3601 40  0000 C CNN
-F 2 "RP_KiCAD_Libs:C1608_WP" V 7780 3600 30  0001 C CNN
-F 3 "" H 7850 3600 30  0000 C CNN
-	1    7850 3600
+P 8600 3650
+F 0 "R35" V 8680 3650 40  0000 C CNN
+F 1 "10k" V 8607 3651 40  0000 C CNN
+F 2 "RP_KiCAD_Libs:C1608_WP" V 8530 3650 30  0001 C CNN
+F 3 "" H 8600 3650 30  0000 C CNN
+	1    8600 3650
 	-1   0    0    1   
 $EndComp
-Text Label 7850 3450 0    60   ~ 0
-MOTOR_EN_A
+Text Label 8600 3500 0    60   ~ 0
+MOTOR_EN
 $Comp
 L GND #PWR077
 U 1 1 57EBDDB7
-P 7850 3750
-F 0 "#PWR077" H 7850 3750 30  0001 C CNN
-F 1 "GND" H 7850 3680 30  0001 C CNN
-F 2 "" H 7850 3750 60  0001 C CNN
-F 3 "" H 7850 3750 60  0001 C CNN
-	1    7850 3750
+P 8600 3800
+F 0 "#PWR077" H 8600 3800 30  0001 C CNN
+F 1 "GND" H 8600 3730 30  0001 C CNN
+F 2 "" H 8600 3800 60  0001 C CNN
+F 3 "" H 8600 3800 60  0001 C CNN
+	1    8600 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2625,13 +2625,13 @@ F 3 "" H 9750 3250 60  0000 C CNN
 	1    9750 3250
 	-1   0    0    1   
 $EndComp
-Text Label 7450 3000 0    60   ~ 0
+Text Label 5850 4300 3    60   ~ 0
 EXIO_1
-Text Label 7450 3100 0    60   ~ 0
+Text Label 5750 4300 3    60   ~ 0
 EXIO_0
-Text Label 7450 2900 0    60   ~ 0
+Text Label 7450 2700 0    60   ~ 0
 EXIO_2
-Text Label 7450 2800 0    60   ~ 0
+Text Label 7450 2600 0    60   ~ 0
 EXIO_3
 $Comp
 L +5V #PWR091
@@ -3100,8 +3100,6 @@ F 3 "" H 10350 3150 50  0000 C CNN
 	1    10350 3150
 	1    0    0    -1  
 $EndComp
-Text Label 7450 2700 0    60   ~ 0
-MOTOR_EN_B
 Text Label 13000 4450 2    60   ~ 0
 LIMIT_A1
 Text Label 13000 4550 2    60   ~ 0
@@ -3238,28 +3236,4 @@ Connection ~ 13400 4500
 Wire Wire Line
 	13500 5400 13400 5400
 Connection ~ 13400 5400
-$Comp
-L R R40
-U 1 1 581D103E
-P 8550 3600
-F 0 "R40" V 8630 3600 40  0000 C CNN
-F 1 "10k" V 8557 3601 40  0000 C CNN
-F 2 "RP_KiCAD_Libs:C1608_WP" V 8480 3600 30  0001 C CNN
-F 3 "" H 8550 3600 30  0000 C CNN
-	1    8550 3600
-	-1   0    0    1   
-$EndComp
-Text Label 8550 3450 0    60   ~ 0
-MOTOR_EN_B
-$Comp
-L GND #PWR0101
-U 1 1 581D1045
-P 8550 3750
-F 0 "#PWR0101" H 8550 3750 30  0001 C CNN
-F 1 "GND" H 8550 3680 30  0001 C CNN
-F 2 "" H 8550 3750 60  0001 C CNN
-F 3 "" H 8550 3750 60  0001 C CNN
-	1    8550 3750
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
