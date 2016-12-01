@@ -1,4 +1,4 @@
-update=2016/11/29 19:33:35
+update=2016/11/30 15:47:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,31 +23,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../library
 [eeschema/libraries]
-LibName1=STM32F103_CanNode-rescue
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
+LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
 LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
-LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName7=power
-LibName8=cmos4000
-LibName9=74xx
-LibName10=linear
-LibName11=transistors
-LibName12=interface
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[general]
-version=1
+LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
+LibName6=74xx
+LibName7=texas
