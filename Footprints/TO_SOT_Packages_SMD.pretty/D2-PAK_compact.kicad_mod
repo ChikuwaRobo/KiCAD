@@ -1,4 +1,4 @@
-(module D2-PAK_compact (layer F.Cu) (tedit 5837CA99)
+(module D2-PAK_compact (layer F.Cu) (tedit 5841393A)
   (descr D2Pak_compact)
   (attr smd)
   (fp_text reference REF** (at 0 -0.5) (layer F.SilkS)
@@ -25,9 +25,9 @@
   (fp_line (start 5 -9) (end -5 -9) (layer F.SilkS) (width 0.1))
   (fp_line (start 5 0) (end 5 -9) (layer F.SilkS) (width 0.1))
   (fp_line (start 5 0) (end -5 0) (layer F.SilkS) (width 0.1))
-  (pad G smd rect (at -2.54 3) (size 2 4) (layers F.Cu F.Paste F.Mask))
-  (pad S smd rect (at 2.54 3) (size 2 4) (layers F.Cu F.Paste F.Mask))
-  (pad D smd rect (at 0 -6.5) (size 11 10) (layers F.Cu F.Paste F.Mask))
+  (pad G smd rect (at -2.54 3) (size 2 3.5) (layers F.Cu F.Paste F.Mask))
+  (pad S smd rect (at 2.54 3) (size 2 3.5) (layers F.Cu F.Paste F.Mask))
+  (pad D smd rect (at 0 -6.5) (size 10 10) (layers F.Cu F.Paste F.Mask))
   (model TO_SOT_Packages_SMD.3dshapes/SOT-404.wrl
     (at (xyz 0 0.075 0))
     (scale (xyz 1 1 1))

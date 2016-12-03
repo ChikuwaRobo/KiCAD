@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\hiroyuki\Documents\KiCAD\KiCAD_Projects\3WS_MD_rev4.0\3WS_MD_rev4.0.sch)
-    (date "2016/11/25 14:24:32")
+    (source C:/Users/hiroyuki/Documents/KiCAD/KiCAD_Projects/3WS_MD_rev4.0/3WS_MD_rev4.0.sch)
+    (date "2016/12/02 18:00:55")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1166,16 +1166,16 @@
   (libraries
     (library (logical conn)
       (uri C:\Users\hiroyuki\Documents\KiCAD\library\conn.lib))
-    (library (logical regul)
-      (uri C:\Users\hiroyuki\Documents\KiCAD\library\regul.lib))
-    (library (logical stm32)
-      (uri C:\Users\hiroyuki\Documents\KiCAD\library\stm32.lib))
     (library (logical device)
       (uri C:\Users\hiroyuki\Documents\KiCAD\library\device.lib))
+    (library (logical regul)
+      (uri C:\Users\hiroyuki\Documents\KiCAD\library\regul.lib))
     (library (logical user)
       (uri C:\Users\hiroyuki\Documents\KiCAD\library\user.lib))
     (library (logical 3WS_MD_rev4.0-cache)
-      (uri C:\Users\hiroyuki\Documents\KiCAD\KiCAD_Projects\3WS_MD_rev4.0\3WS_MD_rev4.0-cache.lib)))
+      (uri C:\Users\hiroyuki\Documents\KiCAD\KiCAD_Projects\3WS_MD_rev4.0\3WS_MD_rev4.0-cache.lib))
+    (library (logical stm32)
+      (uri C:\Users\hiroyuki\Documents\KiCAD\library\stm32.lib)))
   (nets
     (net (code 1) (name +12V)
       (node (ref D13) (pin 1))

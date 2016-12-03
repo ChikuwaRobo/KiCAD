@@ -1,0 +1,122 @@
+EESchema Schematic File Version 2
+LIBS:conn
+LIBS:device
+LIBS:power
+LIBS:regul
+LIBS:user
+LIBS:atmel
+LIBS:ControlPanel-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L F103_mini_rev1.1 U1
+U 1 1 58413B1D
+P 2550 2750
+F 0 "U1" H 2600 4200 60  0000 C CNN
+F 1 "F103_mini_rev1.1" H 2500 1250 60  0000 C CNN
+F 2 "" H 2550 2750 60  0001 C CNN
+F 3 "" H 2550 2750 60  0001 C CNN
+	1    2550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA168-P IC?
+U 1 1 58413B9D
+P 7050 2750
+F 0 "IC?" H 6200 4050 40  0000 L BNN
+F 1 "ATMEGA168-P" H 7400 1400 40  0000 L BNN
+F 2 "DIL28" H 7050 2750 30  0000 C CIN
+F 3 "" H 7050 2750 60  0001 C CNN
+	1    7050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805 U?
+U 1 1 58413C48
+P 4750 3050
+F 0 "U?" H 4900 2854 60  0000 C CNN
+F 1 "7805" H 4750 3250 60  0000 C CNN
+F 2 "" H 4750 3050 60  0000 C CNN
+F 3 "" H 4750 3050 60  0000 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58413CB2
+P 4750 3500
+F 0 "#PWR?" H 4750 3500 30  0001 C CNN
+F 1 "GND" H 4750 3430 30  0001 C CNN
+F 2 "" H 4750 3500 60  0001 C CNN
+F 3 "" H 4750 3500 60  0001 C CNN
+	1    4750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 58413D08
+P 4150 3000
+F 0 "#PWR?" H 4150 2950 20  0001 C CNN
+F 1 "+12V" H 4150 3100 30  0000 C CNN
+F 2 "" H 4150 3000 60  0001 C CNN
+F 3 "" H 4150 3000 60  0001 C CNN
+	1    4150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58413D22
+P 5350 3000
+F 0 "#PWR?" H 5350 3090 20  0001 C CNN
+F 1 "+5V" H 5350 3090 30  0000 C CNN
+F 2 "" H 5350 3000 60  0001 C CNN
+F 3 "" H 5350 3000 60  0001 C CNN
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3000 5350 3000
+Wire Wire Line
+	4350 3000 4150 3000
+$Comp
+L C C?
+U 1 1 58413DF0
+P 4250 3200
+F 0 "C?" H 4250 3300 40  0000 L CNN
+F 1 "C" H 4256 3115 40  0000 L CNN
+F 2 "" H 4288 3050 30  0000 C CNN
+F 3 "" H 4250 3200 60  0000 C CNN
+	1    4250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58413E51
+P 5250 3200
+F 0 "C?" H 5250 3300 40  0000 L CNN
+F 1 "C" H 5256 3115 40  0000 L CNN
+F 2 "" H 5288 3050 30  0000 C CNN
+F 3 "" H 5250 3200 60  0000 C CNN
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3400 5250 3400
+Wire Wire Line
+	4750 3300 4750 3500
+Connection ~ 4750 3400
+Connection ~ 4250 3000
+Connection ~ 5250 3000
+$EndSCHEMATC
