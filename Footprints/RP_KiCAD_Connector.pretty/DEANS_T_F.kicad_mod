@@ -31,4 +31,9 @@
   )
   (pad 1 thru_hole rect (at 0 -4.3) (size 6.5 3) (drill oval 4.9 1.4) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole rect (at 0.9 2.9) (size 3 6.4516) (drill oval 1.4 4.9) (layers *.Cu *.Mask F.SilkS))
+  (model conn_RCs/Deans_F_wired.wrl
+    (at (xyz 0.15 -0.26 0.31))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz -90 180 90))
+  )
 )
