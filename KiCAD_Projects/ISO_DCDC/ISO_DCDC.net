@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\hiroyuki\Documents\KiCAD\KiCAD_Projects\ISO_DCDC\ISO_DCDC.sch)
-    (date "2016/12/02 16:12:14")
+    (source C:/Users/hiroyuki/Documents/KiCAD/KiCAD_Projects/ISO_DCDC/ISO_DCDC.sch)
+    (date "2016/12/28 15:52:40")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -359,7 +359,7 @@
       (tstamp 57D48AFF))
     (comp (ref DCDC4)
       (value MGS15)
-      (footprint RP_KiCAD_Libs:MGS30)
+      (footprint Converters_DCDC_ACDC:MGS30)
       (libsource (lib user) (part MGS15))
       (sheetpath (names /) (tstamps /))
       (tstamp 58067864))
@@ -666,12 +666,12 @@
   (libraries
     (library (logical conn)
       (uri C:\Users\hiroyuki\Documents\KiCAD\library\conn.lib))
-    (library (logical device)
-      (uri C:\Users\hiroyuki\Documents\KiCAD\library\device.lib))
     (library (logical relays)
       (uri C:\Users\hiroyuki\Documents\KiCAD\library\relays.lib))
     (library (logical opto)
       (uri C:\Users\hiroyuki\Documents\KiCAD\library\opto.lib))
+    (library (logical device)
+      (uri C:\Users\hiroyuki\Documents\KiCAD\library\device.lib))
     (library (logical user)
       (uri C:\Users\hiroyuki\Documents\KiCAD\library\user.lib)))
   (nets
