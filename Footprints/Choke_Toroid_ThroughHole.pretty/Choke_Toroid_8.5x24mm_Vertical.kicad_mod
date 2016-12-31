@@ -15,4 +15,9 @@
   (fp_line (start 23 -7.5) (end 23 0) (layer F.SilkS) (width 0.2))
   (pad 1 thru_hole circle (at 11.5 0) (size 1.99898 1.99898) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 11.5 -7.5) (size 1.99898 1.99898) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (model Choke_Toroid_ThroughHole.3dshapes/Choke_Toroid_11x25mm.wrl
+    (at (xyz 0.45 0.015 0.45))
+    (scale (xyz 0.37 0.37 0.37))
+    (rotate (xyz 90 0 0))
+  )
 )
