@@ -1,4 +1,4 @@
-update=2016/12/29 3:28:54
+update=2017/01/02 1:48:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -38,3 +36,5 @@ LibName6=stm32
 LibName7=relays
 LibName8=opto
 LibName9=STM32F407_mini-cache
+[general]
+version=1
