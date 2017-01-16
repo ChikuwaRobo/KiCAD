@@ -1,4 +1,4 @@
-update=2017/01/01 0:06:59
+update=2017/01/03 21:55:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,3 +35,4 @@ LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
 LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
 LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
 LibName6=texas
+LibName7=stm32

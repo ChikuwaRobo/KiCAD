@@ -5,6 +5,7 @@ LIBS:power
 LIBS:regul
 LIBS:user
 LIBS:texas
+LIBS:stm32
 LIBS:BLDC_MD-cache
 EELAYER 25 0
 EELAYER END
@@ -985,4 +986,20 @@ Wire Wire Line
 	3150 5150 3150 5050
 Wire Wire Line
 	3150 5050 3250 5050
+Text GLabel 3750 4050 0    60   Input ~ 0
+HA
+Text GLabel 3750 4150 0    60   Input ~ 0
+LA
+Text GLabel 3750 4250 0    60   Input ~ 0
+HB
+Text GLabel 3750 4350 0    60   Input ~ 0
+LB
+Text GLabel 3750 4450 0    60   Input ~ 0
+HC
+Text GLabel 3750 4550 0    60   Input ~ 0
+LC
+Text GLabel 3750 4850 0    60   Input ~ 0
+BR_SO1
+Text GLabel 3750 4950 0    60   Input ~ 0
+BR_SO2
 $EndSCHEMATC
