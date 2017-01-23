@@ -1,4 +1,4 @@
-update=2017/01/20 11:01:36
+update=2017/01/21 23:12:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,14 +29,8 @@ LibDir=../../library
 [eeschema/libraries]
 LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
 LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
+LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
+LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
 LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName6=power
-LibName7=cmos4000
-LibName8=74xx
-LibName9=linear
-LibName10=transistors
-LibName11=interface
 [general]
 version=1

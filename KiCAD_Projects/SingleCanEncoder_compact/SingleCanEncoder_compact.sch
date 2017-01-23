@@ -905,14 +905,14 @@ U 1 1 586FCD1B
 P 9350 4250
 F 0 "U5" H 9350 4550 60  0000 C CNN
 F 1 "SW_ROTARY_16" H 9350 3950 60  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_ROTARY_16" H 9350 4250 60  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:rotary_0F" H 9350 4250 60  0001 C CNN
 F 3 "" H 9350 4250 60  0001 C CNN
 	1    9350 4250
 	1    0    0    -1  
 $EndComp
-Text Label 8900 4400 2    60   ~ 0
-SEL_1
 Text Label 8900 4100 2    60   ~ 0
+SEL_1
+Text Label 8900 4400 2    60   ~ 0
 SEL_2
 Text Label 9800 4100 0    60   ~ 0
 SEL_8
@@ -940,13 +940,13 @@ F 3 "" H 8900 4250 60  0001 C CNN
 	1    8900 4250
 	0    1    1    0   
 $EndComp
-Text Label 4000 3250 2    60   ~ 0
+Text Label 4000 4050 2    60   ~ 0
 SEL_1
-Text Label 4000 3350 2    60   ~ 0
+Text Label 4000 4150 2    60   ~ 0
 SEL_2
-Text Label 4000 4250 2    60   ~ 0
+Text Label 5100 5350 3    60   ~ 0
 SEL_8
-Text Label 4000 3450 2    60   ~ 0
+Text Label 4000 4250 2    60   ~ 0
 SEL_4
 Text Label 12850 4350 2    60   ~ 0
 ENC_A
@@ -1037,14 +1037,14 @@ F 3 "" H 9450 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM7805CT U4
-U 1 1 587C1A85
-P 2500 7050
-F 0 "U4" H 2300 7250 40  0000 C CNN
-F 1 "LM7805CT" H 2500 7250 40  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing" H 2500 7150 30  0000 C CIN
-F 3 "" H 2500 7050 60  0000 C CNN
-	1    2500 7050
+L SOT-89-3regul U4
+U 1 1 5881E916
+P 2500 7150
+F 0 "U4" H 2300 7350 40  0000 C CNN
+F 1 "SOT-89-3regul" H 2350 7350 40  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing" H 2500 7250 30  0000 C CIN
+F 3 "" H 2500 7150 60  0000 C CNN
+	1    2500 7150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
