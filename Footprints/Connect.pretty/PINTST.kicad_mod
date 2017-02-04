@@ -1,4 +1,4 @@
-(module PINTST (layer F.Cu) (tedit 0)
+(module PINTST (layer F.Cu) (tedit 588D8C05)
   (descr "module 1 pin (ou trou mecanique de percage)")
   (tags DEV)
   (fp_text reference REF** (at 0 -1.26746) (layer F.SilkS)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end -0.254 -0.762) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 1.143 1.143) (drill 0.635) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask F.SilkS))
   (model Connect.3dshapes/PINTST.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
