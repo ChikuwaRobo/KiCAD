@@ -198,7 +198,7 @@ F 1 "CONN_01X03" V 8100 2650 50  0000 C CNN
 F 2 "RP_KiCAD_Connector:XA_3LC" H 8000 2650 50  0001 C CNN
 F 3 "" H 8000 2650 50  0000 C CNN
 	1    8000 2650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Label 7800 2650 2    60   ~ 0
 5V_POWER
@@ -212,7 +212,7 @@ U 1 1 5899A2DA
 P 2600 2800
 F 0 "P1" H 2600 2900 50  0000 C CNN
 F 1 "CONN_01X01" V 2700 2800 50  0000 C CNN
-F 2 "Connect:PINTST" H 2600 2800 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 2600 2800 50  0001 C CNN
 F 3 "" H 2600 2800 50  0000 C CNN
 	1    2600 2800
 	-1   0    0    1   
@@ -223,7 +223,7 @@ U 1 1 5899A405
 P 2600 3000
 F 0 "P3" H 2600 3100 50  0000 C CNN
 F 1 "CONN_01X01" V 2700 3000 50  0000 C CNN
-F 2 "Connect:PINTST" H 2600 3000 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 2600 3000 50  0001 C CNN
 F 3 "" H 2600 3000 50  0000 C CNN
 	1    2600 3000
 	-1   0    0    1   
@@ -234,7 +234,7 @@ U 1 1 5899A444
 P 2600 3200
 F 0 "P4" H 2600 3300 50  0000 C CNN
 F 1 "CONN_01X01" V 2700 3200 50  0000 C CNN
-F 2 "Connect:PINTST" H 2600 3200 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 2600 3200 50  0001 C CNN
 F 3 "" H 2600 3200 50  0000 C CNN
 	1    2600 3200
 	-1   0    0    1   
