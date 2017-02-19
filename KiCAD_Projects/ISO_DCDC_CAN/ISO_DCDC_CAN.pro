@@ -1,4 +1,4 @@
-update=2016/12/31 22:26:53
+update=2017/02/19 15:12:27
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,3 +38,4 @@ LibName6=relays
 LibName7=opto
 LibName8=special
 LibName9=stm32
+LibName10=linear
