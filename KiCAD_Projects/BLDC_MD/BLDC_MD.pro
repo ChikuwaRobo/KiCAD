@@ -1,4 +1,4 @@
-update=2017/03/18 8:32:55
+update=2017/03/21 17:18:38
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -37,3 +35,5 @@ LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
 LibName6=texas
 LibName7=stm32
 LibName8=linear
+[general]
+version=1
