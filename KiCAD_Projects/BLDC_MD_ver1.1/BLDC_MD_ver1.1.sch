@@ -7,6 +7,7 @@ LIBS:user
 LIBS:texas
 LIBS:stm32
 LIBS:linear
+LIBS:BLDC_MD_ver1.1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2424,11 +2425,11 @@ Text Label 3850 1000 1    60   ~ 0
 SW1
 Text Label 3650 1000 1    60   ~ 0
 SW2
-Text Label 5550 3200 0    60   ~ 0
-COMP_U
 Text Label 5550 3100 0    60   ~ 0
-COMP_V
+COMP_U
 Text Label 5550 3000 0    60   ~ 0
+COMP_V
+Text Label 5550 2900 0    60   ~ 0
 COMP_W
 Text Label 4350 1000 1    60   ~ 0
 HALL_0
