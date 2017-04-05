@@ -1,4 +1,4 @@
-update=2017/04/03 17:45:05
+update=2017/03/31 10:51:26
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -34,7 +32,9 @@ LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
 LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
 LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
 LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName6=texas
-LibName7=stm32
-LibName8=linear
-LibName9=relays
+LibName6=relays
+LibName7=opto
+LibName8=special
+LibName9=stm32
+[general]
+version=1
