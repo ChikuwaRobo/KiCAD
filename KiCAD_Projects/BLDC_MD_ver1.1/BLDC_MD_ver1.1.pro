@@ -1,4 +1,4 @@
-update=2017/04/03 17:45:05
+update=2017/04/08 19:34:45
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -38,3 +36,5 @@ LibName6=texas
 LibName7=stm32
 LibName8=linear
 LibName9=relays
+[general]
+version=1
