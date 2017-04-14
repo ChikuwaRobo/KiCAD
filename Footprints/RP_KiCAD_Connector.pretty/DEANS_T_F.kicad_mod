@@ -1,5 +1,5 @@
-(module DEANS_T_F (layer F.Cu) (tedit 5880E097)
-  (fp_text reference P14 (at 0 8.2) (layer F.SilkS)
+(module DEANS_T_F (layer F.Cu) (tedit 58F0967B)
+  (fp_text reference P2 (at 0 8.2) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
   (fp_text value CONN_01X02 (at 0 -7.6) (layer F.SilkS) hide
@@ -29,7 +29,7 @@
   (fp_text user V+ (at 0 -1.7 180) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
-  (pad 1 thru_hole rect (at 0 -4.3) (size 6.5 3) (drill oval 4.9 1.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at 0 -4.3) (size 6.5 2.5) (drill oval 4.9 1.8) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole rect (at 0.9 2.9) (size 3 6.4516) (drill oval 1.8 4.9) (layers *.Cu *.Mask F.SilkS))
   (model conn_RCs/Deans_F_wired.wrl
     (at (xyz 0.15 -0.26 0.31))

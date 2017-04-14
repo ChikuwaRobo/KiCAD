@@ -1,4 +1,4 @@
-update=2017/04/10 19:19:11
+update=2017/04/14 20:46:42
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,14 +27,17 @@ NetIExt=net
 version=1
 LibDir=../../library
 [eeschema/libraries]
-LibName1=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/power
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName6=texas
-LibName7=stm32
-LibName8=linear
-LibName9=relays
+LibName1=power
+LibName2=relays
+LibName3=logo
+LibName4=user
+LibName5=conn
+LibName6=device
+LibName7=linear
+LibName8=silabs
+LibName9=siliconi
+LibName10=stm32
+LibName11=STM32F103_48
+LibName12=regul
 [general]
 version=1
