@@ -1,0 +1,11 @@
+** Drc report for C:\Users\hiroyuki\Documents\KiCAD\KiCAD_Projects\ISO_DCDC\ISO_DCDC.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 1 unconnected pads **
+ErrType(2): 未接続パッド
+    @ (70.500 mm,67.500 mm): パッド 1 (F.Cu, B.Cu, 内層, 非導体層) - P10 net /5V_GND
+    @ (70.500 mm,60.000 mm): パッド 1 (F.Cu, B.Cu, 内層, 非導体層) - P11
+
+** End of Report **
