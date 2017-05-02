@@ -1,4 +1,4 @@
-update=2017/05/01 1:20:39
+update=2017/05/02 9:38:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -42,3 +40,5 @@ LibName10=stm32
 LibName11=STM32F103_48
 LibName12=regul
 LibName13=opto
+[general]
+version=1
