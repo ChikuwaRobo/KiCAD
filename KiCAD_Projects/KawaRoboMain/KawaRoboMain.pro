@@ -1,4 +1,4 @@
-update=2017/06/16 18:44:44
+update=2017/07/27 20:40:00
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,5 +38,6 @@ LibName8=74xx
 LibName9=linear
 LibName10=transistors
 LibName11=interface
+LibName12=atmel
 [general]
 version=1
