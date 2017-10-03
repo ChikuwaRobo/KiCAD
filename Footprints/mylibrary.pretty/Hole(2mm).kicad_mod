@@ -1,0 +1,9 @@
+(module "Hole(2mm)" locked (layer F.Cu) (tedit 55CA7754)
+  (fp_text reference REF**121 (at 1 -2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Hole(2mm)" (at 0 -4.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 2) (layers *.Cu *.Mask F.SilkS))
+)
