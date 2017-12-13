@@ -1,4 +1,4 @@
-update=2017/12/08 15:12:45
+update=2017/11/29 9:24:11
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,32 +23,15 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../../../library
+LibDir=../../library
 [eeschema/libraries]
-LibName1=power
-LibName2=relays
-LibName3=logo
-LibName4=user
-LibName5=conn
-LibName6=device
-LibName7=linear
-LibName8=silabs
-LibName9=siliconi
-LibName10=stm32
-LibName11=STM32F103_48
-LibName12=regul
-LibName13=opto
-[schematic_editor]
+LibName1=conn
+LibName2=device
+LibName3=power
+LibName4=regul
+LibName5=stm32
+LibName6=user
+[general]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

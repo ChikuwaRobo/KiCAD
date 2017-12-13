@@ -3502,7 +3502,7 @@ Text Label 6050 11900 0    60   ~ 0
 SS_RX
 Text Label 6300 14900 0    60   ~ 0
 SS_TX
-Text Label 5950 15050 0    60   ~ 0
+Text Label 6550 14750 0    60   ~ 0
 SS_RX
 $Comp
 L R R19
@@ -3675,4 +3675,17 @@ Text Label 4000 4050 2    60   ~ 0
 BEEP0
 Text Label 3200 8450 2    60   ~ 0
 BEEP0
+$Comp
+L JUMPER JP4
+U 1 1 59F46774
+P 6250 14750
+F 0 "JP4" H 6250 14900 60  0000 C CNN
+F 1 "JUMPER" H 6250 14670 40  0000 C CNN
+F 2 "Connect:GS2" H 6250 14750 60  0001 C CNN
+F 3 "" H 6250 14750 60  0000 C CNN
+	1    6250 14750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 15050 5950 14750
 $EndSCHEMATC
