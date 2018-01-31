@@ -1163,11 +1163,11 @@ Text Label 14800 5850 2    60   ~ 0
 OUT_R1
 Text Label 14800 5950 2    60   ~ 0
 OUT_R2
-Text Label 6650 1450 0    60   ~ 0
+Text Label 5950 1050 0    60   ~ 0
 MotorEN
-Text Label 6650 1550 0    60   ~ 0
+Text Label 5950 1150 0    60   ~ 0
 PWM_L
-Text Label 6650 1650 0    60   ~ 0
+Text Label 5950 1250 0    60   ~ 0
 PWM_R
 Text Label 4000 4050 2    60   ~ 0
 ENC_RA
