@@ -1,4 +1,4 @@
-update=2018/02/16 18:06:52
+update=2018/02/19 11:26:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,5 +38,15 @@ LibName8=cmos4000
 LibName9=74xx
 LibName10=linear
 LibName11=interface
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
