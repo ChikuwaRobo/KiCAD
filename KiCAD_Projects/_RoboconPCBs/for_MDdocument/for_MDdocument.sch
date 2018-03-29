@@ -4,7 +4,6 @@ LIBS:device
 LIBS:power
 LIBS:regul
 LIBS:stm32
-LIBS:user
 LIBS:Power_Management
 LIBS:powerint
 LIBS:for_MDdocument-cache
@@ -45,17 +44,6 @@ F 3 "" H 7150 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FILTER FB1
-U 1 1 58D11CCA
-P 6100 2150
-F 0 "FB1" H 6100 2300 60  0000 C CNN
-F 1 "FILTER" H 6100 2050 60  0000 C CNN
-F 2 "RP_KiCAD_Libs:C1608_WP" H 6100 2150 60  0001 C CNN
-F 3 "" H 6100 2150 60  0000 C CNN
-	1    6100 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C1
 U 1 1 58D11D28
 P 5600 2150
@@ -79,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 2350 7250 2350
 Wire Wire Line
-	5750 2150 5300 2150
+	5300 2150 6550 2150
 $Comp
 L R R3
 U 1 1 58D11E3E
@@ -93,8 +81,6 @@ F 3 "" H 6700 2150 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	6950 2150 6850 2150
-Wire Wire Line
-	6550 2150 6450 2150
 Connection ~ 5600 2350
 $Comp
 L DIODE D1
@@ -137,17 +123,6 @@ F 3 "" H 7150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FILTER FB2
-U 1 1 58D121A7
-P 6100 2900
-F 0 "FB2" H 6100 3050 60  0000 C CNN
-F 1 "FILTER" H 6100 2800 60  0000 C CNN
-F 2 "RP_KiCAD_Libs:C1608_WP" H 6100 2900 60  0001 C CNN
-F 3 "" H 6100 2900 60  0000 C CNN
-	1    6100 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C2
 U 1 1 58D121AD
 P 5600 2900
@@ -171,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 3100 7250 3100
 Wire Wire Line
-	5750 2900 5300 2900
+	5300 2900 6550 2900
 $Comp
 L R R4
 U 1 1 58D121BB
@@ -185,8 +160,6 @@ F 3 "" H 6700 2900 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	6950 2900 6850 2900
-Wire Wire Line
-	6550 2900 6450 2900
 Connection ~ 5600 3100
 $Comp
 L DIODE D2
@@ -273,17 +246,6 @@ F 3 "" H 7150 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FILTER FB3
-U 1 1 58D1AA07
-P 6100 3850
-F 0 "FB3" H 6100 4000 60  0000 C CNN
-F 1 "FILTER" H 6100 3750 60  0000 C CNN
-F 2 "RP_KiCAD_Libs:C1608_WP" H 6100 3850 60  0001 C CNN
-F 3 "" H 6100 3850 60  0000 C CNN
-	1    6100 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C3
 U 1 1 58D1AA0D
 P 5600 3850
@@ -307,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4050 7250 4050
 Wire Wire Line
-	5750 3850 5300 3850
+	5300 3850 6550 3850
 $Comp
 L R R7
 U 1 1 58D1AA1A
@@ -321,8 +283,6 @@ F 3 "" H 6700 3850 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	6950 3850 6850 3850
-Wire Wire Line
-	6550 3850 6450 3850
 Connection ~ 5600 4050
 $Comp
 L DIODE D3
@@ -365,17 +325,6 @@ F 3 "" H 7150 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FILTER FB4
-U 1 1 58D1AA39
-P 6100 4600
-F 0 "FB4" H 6100 4750 60  0000 C CNN
-F 1 "FILTER" H 6100 4500 60  0000 C CNN
-F 2 "RP_KiCAD_Libs:C1608_WP" H 6100 4600 60  0001 C CNN
-F 3 "" H 6100 4600 60  0000 C CNN
-	1    6100 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C4
 U 1 1 58D1AA3F
 P 5600 4600
@@ -399,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 4800 7250 4800
 Wire Wire Line
-	5750 4600 5300 4600
+	5300 4600 6550 4600
 $Comp
 L R R8
 U 1 1 58D1AA4C
@@ -413,8 +362,6 @@ F 3 "" H 6700 4600 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	6950 4600 6850 4600
-Wire Wire Line
-	6550 4600 6450 4600
 Connection ~ 5600 4800
 $Comp
 L DIODE D4
@@ -478,4 +425,20 @@ F 3 "" H 7250 3550 60  0001 C CNN
 	1    7250 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5600 1950 5600 2000
+Wire Wire Line
+	5600 2300 5600 2350
+Wire Wire Line
+	5600 2700 5600 2750
+Wire Wire Line
+	5600 3050 5600 3100
+Wire Wire Line
+	5600 4000 5600 4050
+Wire Wire Line
+	5600 3650 5600 3700
+Wire Wire Line
+	5600 4750 5600 4800
+Wire Wire Line
+	5600 4400 5600 4450
 $EndSCHEMATC
