@@ -1,4 +1,4 @@
-update=2018/06/22 20:19:18
+update=2018/07/02 18:58:20
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../library
@@ -38,5 +40,4 @@ LibName8=74xx
 LibName9=linear
 LibName10=transistors
 LibName11=interface
-[general]
-version=1
+LibName12=opto
