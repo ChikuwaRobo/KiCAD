@@ -1,4 +1,4 @@
-update=2018/05/01 19:31:38
+update=2018/08/16 16:25:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,17 +37,4 @@ LabSize=60
 version=1
 [eeschema]
 version=1
-LibDir=../../library
-[eeschema/libraries]
-LibName1=STM32F103_mini-rescue
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
-LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName7=power
-LibName8=cmos4000
-LibName9=74xx
-LibName10=linear
-LibName11=interface
-LibName12=espressif-xess
+LibDir=
