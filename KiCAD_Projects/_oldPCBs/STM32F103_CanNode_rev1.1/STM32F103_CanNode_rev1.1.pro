@@ -1,4 +1,4 @@
-update=2016/12/31 21:03:54
+update=2023/03/29 20:16:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,21 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=../../library
-[eeschema/libraries]
-LibName1=STM32F103_CanNode-rescue
-LibName2=C:/Users/hiroyuki/Documents/KiCAD/library/conn
-LibName3=C:/Users/hiroyuki/Documents/KiCAD/library/device
-LibName4=C:/Users/hiroyuki/Documents/KiCAD/library/regul
-LibName5=C:/Users/hiroyuki/Documents/KiCAD/library/stm32
-LibName6=C:/Users/hiroyuki/Documents/KiCAD/library/user
-LibName7=power
-LibName8=cmos4000
-LibName9=74xx
-LibName10=linear
-LibName11=transistors
-LibName12=interface
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
