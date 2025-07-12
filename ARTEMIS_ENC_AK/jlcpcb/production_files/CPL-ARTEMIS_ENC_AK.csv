@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,C,C_0603_1608Metric,46.5,-57.75,0.0,top
+J1,Conn_01x07,Hirose_DF13-07P-1.25DSA_1x07_P1.25mm_Vertical,48.0,-35.5,0.0,top
+U1,AK7452,TSSOP-16_4.4x5mm_P0.65mm,48.0,-53.0,-90.0,top
