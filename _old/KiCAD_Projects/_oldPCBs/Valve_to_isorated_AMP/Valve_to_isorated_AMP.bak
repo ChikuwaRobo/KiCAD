@@ -1,0 +1,56 @@
+EESchema Schematic File Version 2
+LIBS:conn
+LIBS:device
+LIBS:power
+LIBS:regul
+LIBS:stm32
+LIBS:user
+LIBS:Valve_to_isorated_AMP-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X01 P?
+U 1 1 58CAD829
+P 2950 1700
+F 0 "P?" H 2950 1800 50  0000 C CNN
+F 1 "CONN_01X01" V 3050 1700 50  0000 C CNN
+F 2 "" H 2950 1700 50  0000 C CNN
+F 3 "" H 2950 1700 50  0000 C CNN
+	1    2950 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P?
+U 1 1 58CAD8A9
+P 2950 2250
+F 0 "P?" H 2950 2350 50  0000 C CNN
+F 1 "CONN_01X01" V 3050 2250 50  0000 C CNN
+F 2 "" H 2950 2250 50  0000 C CNN
+F 3 "" H 2950 2250 50  0000 C CNN
+	1    2950 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 58CAD917
+P 5500 1900
+F 0 "P?" H 5500 2100 50  0000 C CNN
+F 1 "CONN_01X03" V 5600 1900 50  0000 C CNN
+F 2 "" H 5500 1900 50  0000 C CNN
+F 3 "" H 5500 1900 50  0000 C CNN
+	1    5500 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
