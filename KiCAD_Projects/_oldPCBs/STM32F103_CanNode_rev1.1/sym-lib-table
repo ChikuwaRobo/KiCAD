@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name STM32F103_CanNode_rev1.1-rescue)(type Legacy)(uri ${KIPRJMOD}/STM32F103_CanNode_rev1.1-rescue.lib)(options "")(descr ""))
-  (lib (name device1)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/device.lib)(options "")(descr ""))
-  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
-  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
-  (lib (name interface1)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/interface.lib)(options "")(descr ""))
-)
