@@ -1,0 +1,150 @@
+(footprint "A30-F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9978f047-7ac7-4393-8ef2-fae54d1a1c5d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "A30-F"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aeeabcd4-984a-4d73-a801-4c9a7a6a7cbf")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d32149a0-1888-4217-9d65-51c9f5970c82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb8d5184-00bf-493d-ab02-3ca26f60235f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 2.4 -1.5)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c833d697-a14c-4fa1-8216-b87bd77bb0f9")
+	)
+	(fp_line
+		(start 2.4 1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e5f4ccd4-cabb-4fed-b770-7e8bc464d06f")
+	)
+	(fp_line
+		(start 2.4 1.5)
+		(end 2.4 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6264654a-54a9-44e7-9799-778d1ff08357")
+	)
+	(fp_rect
+		(start -2.9 -2.1)
+		(end 2.9 2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2f52e82a-0b9b-4f15-ae90-acba6e82a67a")
+	)
+	(fp_arc
+		(start -1 1.5)
+		(mid -2.5 0)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c33f8ddb-b0f5-46b5-86d1-017960dd3f98")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bb069977-2708-404b-abbd-9b537f8c16cc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1 0)
+		(size 1.8 1.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9be59169-5667-40cc-838c-8ee77fe81544")
+	)
+	(pad "2" thru_hole circle
+		(at 1 0)
+		(size 1.8 1.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2cd8c09-ea22-4411-bdad-67025f2a8c3e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/hiroyuki/Documents/KiCad/8.0/3dmodels/A30/A30-F v2.step"
+		(offset
+			(xyz -2.9 -2.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
